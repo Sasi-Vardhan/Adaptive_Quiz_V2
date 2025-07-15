@@ -1,0 +1,255 @@
+{
+  "subjects": [
+    {
+      "name": "sustainability",
+      "learning_outcome_count": 6,
+      "filepath":"Questions/Sustainability_Questions.csv",
+      "learning_outcomes": [
+        {
+          "level": "Remember",
+          "outcome": "Define sustainability and identify its three core pillars: environmental, economic, and social."
+        },
+        {
+          "level": "Understand",
+          "outcome": "Explain the principles of sustainable development and their relevance to global challenges."
+        },
+        {
+          "level": "Apply",
+          "outcome": "Demonstrate sustainable practices in real-world contexts such as energy use, waste reduction, or transportation."
+        },
+        {
+          "level": "Analyze",
+          "outcome": "Compare the impact of unsustainable practices across different industries and ecosystems."
+        },
+        {
+          "level": "Evaluate",
+          "outcome": "Assess current policies and strategies for promoting sustainability in a chosen domain."
+        },
+        {
+          "level": "Create",
+          "outcome": "Design a sustainability action plan or campaign that addresses local or global environmental issues."
+        }
+      ]
+    },
+    {
+      "name": "Generative AI",
+      "learning_outcome_count": 6,
+      "filepath":"APP/Questions/generative_ai_questions.csv",
+      "learning_outcomes": [
+        {
+          "level": "Remember",
+          "outcome": "List foundational concepts and terminologies related to Generative AI and neural networks."
+        },
+        {
+          "level": "Understand",
+          "outcome": "Describe how transformer-based models like GPT, BERT, and DALL·E function and generate content."
+        },
+        {
+          "level": "Apply",
+          "outcome": "Utilize GenAI tools for generating content, such as text, images, or code, based on given prompts."
+        },
+        {
+          "level": "Analyze",
+          "outcome": "Differentiate between traditional AI and GenAI in terms of architecture, output quality, and use cases."
+        },
+        {
+          "level": "Evaluate",
+          "outcome": "Critically assess the ethical considerations of using GenAI, including bias, data privacy, and misinformation."
+        },
+        {
+          "level": "Create",
+          "outcome": "Develop a personalized learning roadmap or a GenAI-based application prototype that solves a real-world problem."
+        }
+      ]
+    },
+    {
+  "name": "Mechanical Engineering",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/mechanical_engineering_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall fundamental principles of thermodynamics, fluid mechanics, mechanics of materials, and machine design."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Explain how mechanical systems such as engines, pumps, and HVAC systems operate using core engineering principles."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Solve real-world problems using mechanical engineering tools and methods, including CAD, FEA, and thermal simulations."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Break down the behavior of mechanical systems under various loads, stresses, and thermal conditions to identify failure modes or inefficiencies."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Assess the performance, sustainability, and cost-effectiveness of engineering solutions and designs."
+    },
+    {
+      "level": "Create",
+      "outcome": "Design and prototype an innovative mechanical system or component to address a specific engineering challenge."
+    }
+  ]
+},
+{
+  "name": "Civil Engineering",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/civil_engineering_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall key concepts and terminology in structural analysis, geotechnical engineering, transportation, and construction materials."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Describe how different civil engineering systems like bridges, highways, and foundations function and interact with environmental conditions."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Use civil engineering software and methods (e.g., AutoCAD, STAAD.Pro, SAP2000) to solve problems related to design and analysis."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Examine structural systems and material performance to identify stress points, stability issues, and areas for improvement."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Assess the feasibility, sustainability, and safety of proposed civil engineering projects considering environmental impact and codes."
+    },
+    {
+      "level": "Create",
+      "outcome": "Design a sustainable civil infrastructure project or model—such as a smart road, green building, or water management system."
+    }
+  ]
+},
+{
+  "name": "Bioengineering",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/bioengineering_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall fundamental terms and biological principles relevant to bioengineering, such as cell biology, tissue engineering, and biomechanics."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Explain how bioengineering systems like prosthetics, biosensors, and imaging technologies function within biological contexts."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Use mathematical, biological, and engineering principles to solve problems related to biomedical device design and physiological modeling."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Break down complex bio-systems and medical devices to study interactions, component behavior, and system-level performance."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Assess the safety, effectiveness, and regulatory compliance of biomedical products or interventions based on real-world data and standards."
+    },
+    {
+      "level": "Create",
+      "outcome": "Design an innovative bioengineering solution such as a biocompatible implant, tissue scaffold, or diagnostic tool to meet healthcare needs."
+    }
+  ]
+},
+{
+  "name": "Chemical Engineering",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/chemical_engineering_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall basic principles, terminology, and units used in chemical processes such as thermodynamics, kinetics, and material balances."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Explain the function of unit operations like distillation, heat exchangers, and reactors within chemical process systems."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Apply mass and energy balance equations to solve engineering problems in areas such as separation processes or reactor design."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Interpret process flow diagrams and analyze system behavior to identify inefficiencies, safety risks, or design flaws."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Critically assess the sustainability, safety, and economic viability of chemical manufacturing processes and technologies."
+    },
+    {
+      "level": "Create",
+      "outcome": "Design a chemical process or product—such as a biofuel production unit or waste treatment system—that meets environmental and industrial goals."
+    }
+  ]
+},
+{
+  "name": "MBA",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/mba_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall fundamental concepts and terminology in management, marketing, finance, operations, and organizational behavior."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Explain how different business functions interact to achieve organizational objectives and contribute to value creation."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Use business frameworks, financial models, and marketing tools to solve real-world management problems."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Interpret financial statements, market trends, and organizational behavior to identify problems and opportunities."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Assess business strategies and decisions using criteria such as profitability, risk, ethics, and sustainability."
+    },
+    {
+      "level": "Create",
+      "outcome": "Develop a comprehensive business plan, marketing strategy, or financial model that solves a complex business challenge."
+    }
+  ]
+},
+{
+  "name": "Electrical and Electronics Engineering",
+  "learning_outcome_count": 6,
+  "filepath": "APP/Questions/eee_questions.csv",
+  "learning_outcomes": [
+    {
+      "level": "Remember",
+      "outcome": "Recall core concepts and terminology in circuit theory, electromagnetics, digital electronics, and electrical machines."
+    },
+    {
+      "level": "Understand",
+      "outcome": "Explain the operation of electrical and electronic systems including AC/DC machines, power systems, and embedded systems."
+    },
+    {
+      "level": "Apply",
+      "outcome": "Use simulation tools like MATLAB, Simulink, or PSPICE to model and solve electrical circuit and control system problems."
+    },
+    {
+      "level": "Analyze",
+      "outcome": "Examine circuits and systems to determine parameters such as impedance, efficiency, losses, and stability under different conditions."
+    },
+    {
+      "level": "Evaluate",
+      "outcome": "Critically evaluate the performance and safety of electrical systems based on industry standards and sustainability metrics."
+    },
+    {
+      "level": "Create",
+      "outcome": "Design and prototype electrical or embedded systems such as smart meters, inverters, or IoT-enabled control systems."
+    }
+  ]
+}
+
+
+
+  ]
+}
