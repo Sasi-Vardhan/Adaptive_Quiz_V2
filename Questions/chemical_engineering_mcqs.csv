@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Remembering,What is the primary focus of thermodynamics in chemical engineering?,Energy transformations and equilibrium,Fluid flow dynamics,Mass transfer rates,Chemical reaction kinetics,Energy transformations and equilibrium,Easy
+2,LO1,Remembering,Which law states that energy cannot be created or destroyed?,First Law of Thermodynamics,Second Law of Thermodynamics,Third Law of Thermodynamics,Law of Mass Conservation,First Law of Thermodynamics,Easy
+3,LO1,Remembering,What is the unit of enthalpy?,Joule per kilogram,Watt per meter,Newton per second,Pascal per cubic meter,Joule per kilogram,Easy
+4,LO1,Remembering,What does Gibbs free energy determine?,Reaction spontaneity,Fluid viscosity,Mass flow rate,Heat transfer coefficient,Reaction spontaneity,Easy
+5,LO1,Remembering,What is a state function in thermodynamics?,Property independent of path,Property dependent on time,Property based on flow rate,Property tied to reaction rate,Property independent of path,Easy
+6,LO1,Remembering,What is the ideal gas law equation?,PV = nRT,F = ma,Q = mCΔT,E = mc²,PV = nRT,Easy
+7,LO1,Remembering,What is the purpose of a heat exchanger?,Transfer heat between fluids,Separate chemical compounds,Increase reaction rates,Measure fluid velocity,Transfer heat between fluids,Easy
+8,LO1,Remembering,What does the second law of thermodynamics state?,Entropy of an isolated system increases,Energy is always conserved,Heat flows without work,Systems reach absolute zero,Entropy of an isolated system increases,Easy
+9,LO1,Understanding,Why is enthalpy important in chemical processes?,Measures energy changes,Calculates fluid velocity,Determines reaction rate,Controls mass transfer,Measures energy changes,Medium
+10,LO1,Understanding,How does the first law of thermodynamics apply to a closed system?,Energy is conserved,Entropy always decreases,Heat equals work,Mass remains constant,Energy is conserved,Medium
+11,LO1,Understanding,What is the significance of Gibbs free energy in reactions?,Predicts spontaneity,Measures fluid density,Calculates heat capacity,Determines flow rate,Predicts spontaneity,Medium
+12,LO1,Understanding,Why is the ideal gas law limited in real processes?,Assumes no intermolecular forces,Requires high pressure,Applies only to liquids,Ignores temperature changes,Assumes no intermolecular forces,Medium
+13,LO1,Understanding,How does a heat exchanger improve process efficiency?,Minimizes energy loss,Increases reaction speed,Reduces fluid viscosity,Enhances mass transfer,Minimizes energy loss,Medium
+14,LO1,Understanding,What role does entropy play in thermodynamics?,Measures system disorder,Calculates fluid flow,Determines reaction yield,Controls heat transfer,Measures system disorder,Medium
+15,LO1,Understanding,Why is a state function useful in process design?,Simplifies calculations,Increases reaction rates,Reduces fluid friction,Enhances separation efficiency,Simplifies calculations,Medium
+16,LO1,Understanding,How does the second law of thermodynamics limit processes?,Prevents 100% efficiency,Ensures constant energy,Reduces mass flow,Increases reaction rates,Prevents 100% efficiency,Medium
+17,LO1,Applying,How would you calculate the enthalpy change for a reaction?,Use ΔH = ΣH_products - ΣH_reactants,Measure fluid velocity,Calculate mass flow rate,Determine heat transfer coefficient,Use ΔH = ΣH_products - ΣH_reactants,Hard
+18,LO1,Applying,What factor is critical in designing a heat exchanger?,Maximizing heat transfer rate,Minimizing fluid viscosity,Increasing reaction yield,Reducing system pressure,Maximizing heat transfer rate,Hard
+19,LO1,Applying,How would you use Gibbs free energy to predict a reaction?,Check if ΔG < 0,Measure fluid density,Calculate flow rate,Determine heat capacity,Check if ΔG < 0,Hard
+20,LO1,Analyzing,Why might a thermodynamic process be inefficient?,High entropy generation,Low fluid velocity,High reaction rate,Low mass transfer,High entropy generation,Hard
+21,LO1,Analyzing,What challenge arises in applying the ideal gas law to real gases?,Intermolecular forces,Low temperature only,High flow rates,Excessive pressure,Intermolecular forces,Hard
+22,LO1,Evaluating,Which property is most critical for a heat exchanger design?,Thermal conductivity,Fluid density,Reaction rate,Mass flow rate,Thermal conductivity,Hard
+23,LO1,Analyzing,Why might a process violate the second law of thermodynamics?,Decreasing entropy in an isolated system,Conserving energy,Increasing mass flow,Reducing heat transfer,Decreasing entropy in an isolated system,Hard
+24,LO1,Evaluating,Which thermodynamic model is best for high-pressure systems?,Van der Waals equation,Ideal gas law,Bernoulli’s equation,Newton’s law,Van der Waals equation,Hard
+25,LO2,Remembering,What is the primary goal of chemical reaction engineering?,Optimize reaction conditions,Design fluid pipelines,Analyze heat transfer,Measure mass flow rates,Optimize reaction conditions,Easy
+26,LO2,Remembering,What does a catalyst do in a chemical reaction?,Lowers activation energy,Increases temperature,Reduces pressure,Changes equilibrium constant,Lowers activation energy,Easy
+27,LO2,Remembering,What is a first-order reaction?,Rate depends on one reactant,Rate is constant,Rate depends on temperature,Rate is zero,Rate depends on one reactant,Easy
+28,LO2,Remembering,What is the Arrhenius equation used for?,Calculate reaction rate constant,Measure fluid velocity,Determine heat transfer,Analyze mass transfer,Calculate reaction rate constant,Easy
+29,LO2,Remembering,What is a batch reactor?,Processes fixed volume,Operates continuously,Separates mixtures,Heats fluids,Processes fixed volume,Easy
+30,LO2,Remembering,What does a plug flow reactor (PFR) assume?,Uniform flow with no mixing,Axial mixing only,Constant temperature,Batch processing,Uniform flow with no mixing,Easy
+31,LO2,Remembering,What is the purpose of a rate law?,Describes reaction kinetics,Calculates fluid flow,Measures heat transfer,Determines phase equilibrium,Describes reaction kinetics,Easy
+32,LO2,Remembering,What is a key feature of a continuous stirred-tank reactor (CSTR)?,Complete mixing,Fixed volume,No mixing,High pressure,Complete mixing,Easy
+33,LO2,Understanding,Why is a catalyst critical in industrial reactions?,Increases reaction rate,Reduces fluid viscosity,Increases system pressure,Decreases heat transfer,Increases reaction rate,Medium
+34,LO2,Understanding,How does a first-order reaction differ from a second-order reaction?,Depends on one vs. two reactants,Has constant rate,Requires high pressure,Ignores temperature,Depends on one vs. two reactants,Medium
+35,LO2,Understanding,What is the benefit of using a PFR over a CSTR?,Higher conversion for plug flow,Lower cost,Complete mixing,Batch processing,Higher conversion for plug flow,Medium
+36,LO2,Understanding,Why is the Arrhenius equation important?,Relates rate to temperature,Measures fluid flow,Calculates heat capacity,Determines mass transfer,Relates rate to temperature,Medium
+37,LO2,Understanding,How does a batch reactor differ from a CSTR?,Fixed vs. continuous processing,High vs. low pressure,Hot vs. cold operation,Liquid vs. gas phase,Fixed vs. continuous processing,Medium
+38,LO2,Understanding,What role does a rate law play in reactor design?,Predicts reaction behavior,Calculates fluid density,Measures heat loss,Controls mass flow,Predicts reaction behavior,Medium
+39,LO2,Understanding,Why is residence time important in a PFR?,Affects reaction conversion,Reduces fluid viscosity,Increases heat transfer,Controls system pressure,Affects reaction conversion,Medium
+40,LO2,Understanding,What is the advantage of a CSTR in large-scale production?,Uniform product output,High pressure operation,Low cost materials,Minimal mixing,Uniform product output,Medium
+41,LO2,Applying,How would you select a reactor for a fast reaction?,Choose a PFR for high conversion,Use a batch reactor,Select a high-pressure system,Opt for minimal mixing,Choose a PFR for high conversion,Hard
+42,LO2,Applying,What factor is critical in catalyst design?,High surface area,Low density,High viscosity,Low reaction rate,High surface area,Hard
+43,LO2,Applying,How would you use the Arrhenius equation in reactor design?,Estimate rate constant with temperature,Calculate fluid velocity,Measure heat transfer,Determine mass flow,Estimate rate constant with temperature,Hard
+44,LO2,Analyzing,Why might a reaction yield be low in a CSTR?,Due to excessive mixing,Because of high pressure,From low temperature,Due to small reactor size,Due to excessive mixing,Hard
+45,LO2,Analyzing,What challenge arises in scaling up a batch reactor?,Maintaining uniform conditions,Reducing fluid viscosity,Increasing heat loss,Lowering reaction rate,Maintaining uniform conditions,Hard
+46,LO2,Evaluating,Which reactor is best for a highly exothermic reaction?,CSTR with cooling,Batch reactor,PFR without cooling,High-pressure reactor,CSTR with cooling,Hard
+47,LO2,Analyzing,Why might a catalyst lose effectiveness?,Due to surface fouling,Because of low pressure,From high flow rates,Due to excessive mixing,Due to surface fouling,Hard
+48,LO2,Evaluating,Which factor is most critical for PFR performance?,Residence time,Reactor weight,Fluid density,Heat capacity,Residence time,Hard
+49,LO3,Remembering,What is the primary goal of transport phenomena in chemical engineering?,Study fluid, heat, and mass transfer,Design chemical reactors,Analyze reaction kinetics,Measure thermodynamic properties,Study fluid, heat, and mass transfer,Easy
+50,LO3,Remembering,What does Navier-Stokes equation describe?,Fluid motion,Reaction rates,Heat transfer,Mass diffusion,Fluid motion,Easy
+51,LO3,Remembering,What is Fick’s first law used for?,Mass diffusion,Fluid flow,Heat conduction,Reaction kinetics,Mass diffusion,Easy
+52,LO3,Remembering,What is the purpose of a Reynolds number?,Characterize flow type,Measure reaction rate,Calculate heat transfer,Determine phase equilibrium,Characterize flow type,Easy
+53,LO3,Remembering,What does Fourier’s law describe?,Heat conduction,Mass transfer,Fluid velocity,Reaction yield,Heat conduction,Easy
+54,LO3,Remembering,What is a boundary layer in fluid flow?,Region near a surface,High-pressure zone,Reaction interface,Heat transfer zone,Region near a surface,Easy
+55,LO3,Remembering,What is the unit of viscosity?,Pascal-second,Newton-meter,Joule per kilogram,Watt per meter,Pascal-second,Easy
+56,LO3,Remembering,What does a high Prandtl number indicate?,Dominant momentum transfer,High reaction rate,Low heat transfer,High mass diffusion,Dominant momentum transfer,Easy
+57,LO3,Understanding,Why is the Reynolds number important in fluid flow?,Predicts laminar or turbulent flow,Measures reaction rate,Calculates heat capacity,Determines phase change,Predicts laminar or turbulent flow,Medium
+58,LO3,Understanding,How does Fick’s first law apply to mass transfer?,Relates flux to concentration gradient,Calculates fluid velocity,Measures heat transfer,Determines reaction rate,Relates flux to concentration gradient,Medium
+59,LO3,Understanding,What is the benefit of understanding boundary layers?,Optimizes flow design,Increases reaction yield,Reduces heat loss,Enhances phase equilibrium,Optimizes flow design,Medium
+60,LO3,Understanding,Why is Fourier’s law critical in heat exchanger design?,Guides heat transfer calculations,Measures fluid density,Calculates reaction rate,Controls mass flow,Guides heat transfer calculations,Medium
+61,LO3,Understanding,How does viscosity affect fluid flow?,Influences flow resistance,Increases reaction speed,Reduces heat transfer,Enhances mass diffusion,Influences flow resistance,Medium
+62,LO3,Understanding,What role does the Prandtl number play in heat transfer?,Compares momentum to heat diffusion,Measures reaction kinetics,Calculates fluid density,Determines phase change,Compares momentum to heat diffusion,Medium
+63,LO3,Understanding,Why is the Navier-Stokes equation complex?,Accounts for nonlinear flow,Simplifies heat transfer,Reduces mass diffusion,Increases reaction rates,Accounts for nonlinear flow,Medium
+64,LO3,Understanding,What is the advantage of turbulent flow in mixing?,Enhances mixing efficiency,Reduces fluid viscosity,Increases heat loss,Lowers reaction yield,Enhances mixing efficiency,Medium
+65,LO3,Applying,How would you use Reynolds number in pipe design?,Determine flow regime,Calculate reaction rate,Measure heat transfer,Determine mass diffusion,Determine flow regime,Hard
+66,LO3,Applying,What factor is critical in optimizing mass transfer?,Concentration gradient,Fluid viscosity,Reaction rate,Heat capacity,Concentration gradient,Hard
+67,LO3,Applying,How would you apply Fourier’s law in a heat exchanger?,Calculate heat flux,Measure fluid velocity,Determine reaction yield,Control mass flow,Calculate heat flux,Hard
+68,LO3,Analyzing,Why might a fluid flow system fail?,Due to incorrect Reynolds number,Because of high reaction rate,From low heat transfer,Due to phase equilibrium,Due to incorrect Reynolds number,Hard
+69,LO3,Analyzing,What challenge arises in modeling boundary layers?,Complex flow transitions,Low fluid viscosity,High reaction rates,Reduced heat transfer,Complex flow transitions,Hard
+70,LO3,Evaluating,Which parameter is most critical for heat transfer efficiency?,Thermal conductivity,Fluid density,Reaction rate,Mass flow rate,Thermal conductivity,Hard
+71,LO3,Analyzing,Why is viscosity critical in pipeline design?,Affects pressure drop,Increases reaction yield,Reduces heat transfer,Enhances mass diffusion,Affects pressure drop,Hard
+72,LO3,Evaluating,Which flow regime is best for efficient mixing?,Turbulent,Laminar,Transitional,Static,Turbulent,Hard
+73,LO4,Remembering,What is the primary goal of separation processes in chemical engineering?,Purify or isolate components,Design chemical reactors,Measure fluid flow,Analyze reaction kinetics,Purify or isolate components,Easy
+74,LO4,Remembering,What is distillation used for?,Separate liquid mixtures,Measure heat transfer,Increase reaction rate,Control fluid flow,Separate liquid mixtures,Easy
+75,LO4,Remembering,What does a centrifuge do in separations?,Separates based on density,Heats fluids,Increases reaction yield,Measures mass flow,Separates based on density,Easy
+76,LO4,Remembering,What is the purpose of a membrane in filtration?,Selectively filter molecules,Increase fluid viscosity,Reduce heat transfer,Enhance reaction rate,Selectively filter molecules,Easy
+77,LO4,Remembering,What is chromatography used for?,Separate chemical compounds,Measure fluid velocity,Calculate heat transfer,Determine reaction rate,Separate chemical compounds,Easy
+78,LO4,Remembering,What does azeotrope mean in distillation?,Constant boiling mixture,High-pressure system,Low reaction rate,High heat transfer,Constant boiling mixture,Easy
+79,LO4,Remembering,What is the role of an adsorbent in adsorption?,Binds target molecules,Increases fluid flow,Reduces reaction rate,Controls heat transfer,Binds target molecules,Easy
+80,LO4,Remembering,What is a key feature of reverse osmosis?,Uses pressure to filter,Heats the system,Increases reaction yield,Reduces fluid viscosity,Uses pressure to filter,Easy
+81,LO4,Understanding,Why is distillation effective for separating liquids?,Exploits boiling point differences,Increases fluid viscosity,Reduces reaction rates,Enhances heat transfer,Exploits boiling point differences,Medium
+82,LO4,Understanding,How does a centrifuge improve separation efficiency?,Uses centrifugal force,Increases reaction speed,Reduces fluid density,Controls heat loss,Uses centrifugal force,Medium
+83,LO4,Understanding,What is the advantage of membrane filtration?,Selective molecule separation,Increases system pressure,Reduces mass transfer,Enhances reaction yield,Selective molecule separation,Medium
+84,LO4,Understanding,Why is chromatography critical in chemical analysis?,Separates complex mixtures,Measures fluid flow,Calculates heat capacity,Controls reaction rate,Separates complex mixtures,Medium
+85,LO4,Understanding,How does an azeotrope limit distillation?,Prevents complete separation,Increases fluid viscosity,Reduces heat transfer,Enhances reaction speed,Prevents complete separation,Medium
+86,LO4,Understanding,What role does adsorption play in gas purification?,Removes impurities selectively,Increases system pressure,Reduces reaction yield,Controls fluid flow,Removes impurities selectively,Medium
+87,LO4,Understanding,Why is reverse osmosis used in water purification?,Removes dissolved salts,Increases fluid viscosity,Reduces heat transfer,Enhances reaction rate,Removes dissolved salts,Medium
+88,LO4,Understanding,What is the benefit of using a packed column in distillation?,Increases surface area,Reduces fluid flow,Increases reaction rate,Lowers heat transfer,Increases surface area,Medium
+89,LO4,Applying,How would you design a distillation column for ethanol purification?,Optimize tray spacing,Increase fluid viscosity,Reduce reaction rate,Lower heat transfer,Optimize tray spacing,Hard
+90,LO4,Applying,What factor is critical in selecting a membrane for filtration?,Pore size selectivity,High fluid viscosity,Low reaction rate,High heat transfer,Pore size selectivity,Hard
+91,LO4,Applying,How would you optimize a centrifuge for protein separation?,Adjust rotational speed,Increase fluid density,Reduce heat transfer,Enhance reaction yield,Adjust rotational speed,Hard
+92,LO4,Analyzing,Why might a distillation process fail?,Due to azeotrope formation,Because of high fluid flow,From low reaction rate,Due to excessive heat transfer,Due to azeotrope formation,Hard
+93,LO4,Analyzing,What challenge arises in scaling up adsorption processes?,Maintaining adsorbent efficiency,Reducing fluid viscosity,Increasing reaction rate,Lowering heat transfer,Maintaining adsorbent efficiency,Hard
+94,LO4,Evaluating,Which separation technique is best for purifying water?,Reverse osmosis,Distillation,Centrifugation,Chromatography,Reverse osmosis,Hard
+95,LO4,Analyzing,Why is membrane fouling problematic in filtration?,Reduces efficiency,Increases reaction rate,Lowers fluid viscosity,Enhances heat transfer,Reduces efficiency,Hard
+96,LO4,Evaluating,Which factor is most critical for chromatography performance?,Stationary phase selectivity,Fluid density,Reaction rate,Heat transfer,Stationary phase selectivity,Hard
+97,LO5,Remembering,What is the primary goal of process design in chemical engineering?,Optimize system efficiency,Analyze reaction kinetics,Measure fluid flow,Design separation units,Optimize system efficiency,Easy
+98,LO5,Remembering,What is a P&ID?,Piping and Instrumentation Diagram,Process and Integration Design,Pressure and Flow Diagram,Product and Inventory Diagram,Piping and Instrumentation Diagram,Easy
+99,LO5,Remembering,What does HAZOP stand for?,Hazard and Operability Study,Heat and Optimization Process,High Accuracy Zone Operation,Hybrid Analysis of Processes,Hazard and Operability Study,Easy
+100,LO5,Remembering,What is the purpose of a process flow diagram (PFD)?,Show process flow and equipment,Measure reaction rates,Analyze heat transfer,Calculate mass diffusion,Show process flow and equipment,Easy
+101,LO5,Remembering,What is a key goal of process optimization?,Minimize costs and maximize output,Increase fluid viscosity,Reduce reaction rates,Enhance heat transfer,Minimize costs and maximize output,Easy
+102,LO5,Remembering,What does a control valve do in a process?,Regulates flow or pressure,Heats the system,Increases reaction yield,Separates mixtures,Regulates flow or pressure,Easy
+103,LO5,Remembering,What is the role of a heat integration system?,Recovers waste heat,Measures fluid flow,Increases reaction rate,Controls mass transfer,Recovers waste heat,Easy
+104,LO5,Remembering,What is a common software for process simulation?,Aspen Plus,Microsoft Excel,AutoCAD,Matlab,Aspen Plus,Easy
+105,LO5,Understanding,Why is a P&ID critical in process design?,Details system components,Increases reaction speed,Reduces fluid viscosity,Enhances mass transfer,Details system components,Medium
+106,LO5,Understanding,How does HAZOP improve process safety?,Identifies potential hazards,Increases system pressure,Reduces reaction yield,Controls fluid flow,Identifies potential hazards,Medium
+107,LO5,Understanding,What is the benefit of process optimization?,Reduces operational costs,Increases fluid density,Enhances reaction rate,Lowers heat transfer,Reduces operational costs,Medium
+108,LO5,Understanding,Why is a PFD important in plant design?,Guides process flow,Measures fluid velocity,Calculates reaction rate,Controls mass diffusion,Guides process flow,Medium
+109,LO5,Understanding,How does heat integration improve efficiency?,Recycles waste heat,Increases reaction speed,Reduces fluid viscosity,Enhances mass transfer,Recycles waste heat,Medium
+110,LO5,Understanding,What role does a control valve play in process control?,Maintains desired conditions,Increases system pressure,Reduces reaction yield,Controls heat transfer,Maintains desired conditions,Medium
+111,LO5,Understanding,Why is process simulation critical?,Predicts system performance,Reduces fluid flow,Increases reaction rate,Lowers mass transfer,Predicts system performance,Medium
+112,LO5,Understanding,What is the advantage of using Aspen Plus?,Simulates complex processes,Increases fluid viscosity,Reduces heat transfer,Enhances reaction yield,Simulates complex processes,Medium
+113,LO5,Applying,How would you use a PFD in plant design?,Map process flow and equipment,Increase reaction rate,Measure fluid velocity,Calculate heat transfer,Map process flow and equipment,Hard
+114,LO5,Applying,What factor is critical in HAZOP analysis?,Identifying all hazards,Reducing fluid viscosity,Increasing reaction rate,Lowering heat transfer,Identifying all hazards,Hard
+115,LO5,Applying,How would you optimize a process for energy efficiency?,Implement heat integration,Increase system pressure,Reduce reaction yield,Control mass flow,Implement heat integration,Hard
+116,LO5,Analyzing,Why might a process design fail?,Due to unaddressed hazards,Because of high fluid flow,From low reaction rate,Due to excessive heat transfer,Due to unaddressed hazards,Hard
+117,LO5,Analyzing,What challenge arises in process simulation?,Accurate data input,Reducing fluid viscosity,Increasing reaction rate,Lowering heat transfer,Accurate data input,Hard
+118,LO5,Evaluating,Which software is best for process simulation?,Aspen Plus,Excel,Word,PowerPoint,Aspen Plus,Hard
+119,LO5,Analyzing,Why is heat integration critical in large plants?,Reduces energy costs,Increases reaction speed,Reduces fluid viscosity,Enhances mass transfer,Reduces energy costs,Hard
+120,LO5,Evaluating,Which factor is most critical for process control?,Accurate instrumentation,Fluid density,Reaction rate,Heat transfer,Accurate instrumentation,Hard

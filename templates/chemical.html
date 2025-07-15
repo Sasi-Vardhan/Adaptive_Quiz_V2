@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Chemical Engineering - Personalized Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #f0fdf4; /* Light green for lime solutions */
+            --secondary-color: #e0f7fa; /* Light cyan for aqueous solutions */
+            --accent-reaction: #16a34a; /* Vibrant green for chemical reactions */
+            --accent-molecule: #0284c7; /* Blue for molecular structures */
+            --accent-catalyst: #9333ea; /* Purple for catalysts */
+            --accent-solution: #06b6d4; /* Cyan for liquid solutions */
+            --accent-energy: #b91c1c; /* Red for reaction energy */
+            --text-dark: #0f172a;
+            --text-medium: #334155;
+            --text-light: #475569;
+            --text-lightest: #64748b;
+            --pure-white: #ffffff;
+            --gradient-reaction: linear-gradient(135deg, #16a34a 0%, #06b6d4 50%, #9333ea 100%);
+            --gradient-molecule: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            --gradient-catalyst: linear-gradient(135deg, #9333ea 0%, #7e22ce 100%);
+            --shadow-soft: 0 10px 40px rgba(22, 163, 74, 0.08);
+            --shadow-medium: 0 20px 60px rgba(22, 163, 74, 0.12);
+            --shadow-strong: 0 30px 80px rgba(22, 163, 74, 0.16);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--pure-white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: var(--pure-white);
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: var(--gradient-reaction);
+            border-radius: 50%;
+            opacity: 0.3;
+            filter: blur(50px);
+            animation: chemical-swirl 15s infinite ease-in-out;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            left: -15%;
+            width: 500px;
+            height: 500px;
+            background: var(--gradient-molecule);
+            border-radius: 50%;
+            opacity: 0.4;
+            filter: blur(40px);
+            animation: chemical-swirl 12s infinite ease-in-out reverse;
+        }
+
+        .bubbling-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .bubble-particle {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: var(--accent-reaction);
+            border-radius: 50%;
+            animation: bubble-rise 8s infinite ease-out;
+            box-shadow: 0 0 12px rgba(22, 163, 74, 0.5);
+            opacity: 0;
+        }
+
+        .bubble-particle:nth-child(1) {
+            bottom: 10%;
+            left: 15%;
+            background: var(--accent-reaction);
+            animation-delay: 0s;
+        }
+
+        .bubble-particle:nth-child(2) {
+            bottom: 5%;
+            right: 25%;
+            background: var(--accent-molecule);
+            animation-delay: -1.5s;
+        }
+
+        .bubble-particle:nth-child(3) {
+            bottom: 15%;
+            left: 70%;
+            background: var(--accent-catalyst);
+            animation-delay: -3s;
+        }
+
+        .bubble-particle:nth-child(4) {
+            bottom: 20%;
+            right: 40%;
+            background: var(--accent-solution);
+            animation-delay: -4.5s;
+        }
+
+        .bubble-particle:nth-child(5) {
+            bottom: 10%;
+            left: 55%;
+            background: var(--accent-energy);
+            animation-delay: -6s;
+        }
+
+        @keyframes chemical-swirl {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.1); }
+        }
+
+        @keyframes bubble-rise {
+            0% { transform: translateY(0) scale(0.8); opacity: 0.7; }
+            50% { transform: translateY(-50vh) translateX(10px) scale(1.2); opacity: 1; }
+            100% { transform: translateY(-100vh) translateX(-5px) scale(0.5); opacity: 0; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            animation: fadeInUp 1.2s ease-out;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, var(--accent-reaction), var(--accent-solution));
+            color: var(--pure-white);
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(22, 163, 74, 0.3);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 6vw, 5rem);
+            font-weight: 600;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 2.5vw, 1.4rem);
+            font-weight: 400;
+            color: var(--text-medium);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            padding: 18px 40px;
+            background: var(--gradient-reaction);
+            color: var(--pure-white);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            box-shadow: var(--shadow-medium);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            margin-right: 1rem;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            padding: 18px 40px;
+            background: transparent;
+            color: var(--text-medium);
+            text-decoration: none;
+            border: 2px solid var(--secondary-color);
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            border-color: var(--accent-reaction);
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 120px 0;
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s ease-out;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: var(--gradient-reaction);
+            color: var(--pure-white);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Importance Section */
+        .importance {
+            background: var(--primary-color);
+        }
+
+        .importance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .importance-card {
+            background: var(--pure-white);
+            padding: 3rem 2.5rem;
+            border-radius: 24px;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.4s ease;
+            position: relative;
+            border: 1px solid rgba(22, 163, 74, 0.1);
+        }
+
+        .importance-card:nth-child(1) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #e0f7fa 100%);
+        }
+
+        .importance-card:nth-child(2) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #f3e8ff 100%);
+        }
+
+        .importance-card:nth-child(3) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #fee2e2 100%);
+        }
+
+        .importance-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .card-icon {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 2rem;
+            background: var(--pure-white);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .card-description {
+            color: var(--text-medium);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        /* Learning Section */
+        .learning {
+            background: var(--pure-white);
+        }
+
+        .learning-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+            margin-top: 4rem;
+        }
+
+        .learning-text h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .learning-text p {
+            font-size: 1.1rem;
+            color: var(--text-medium);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .learning-visual {
+            position: relative;
+            height: 500px;
+            background: var(--gradient-reaction);
+            border-radius: 32px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .learning-visual::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 180px;
+            height: 180px;
+            background: var(--pure-white);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.8;
+            animation: chemical-effervesce 2.5s infinite ease-in-out;
+        }
+
+        .learning-visual::after {
+            content: '🧪';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+            z-index: 2;
+            animation: chemical-vibrate 1.5s infinite;
+        }
+
+        @keyframes chemical-effervesce {
+            0%, 100% { transform: translate(-50%, -50%) scale(1) translateY(0); }
+            50% { transform: translate(-50%, -50%) scale(1.15) translateY(-10px); }
+        }
+
+        @keyframes chemical-vibrate {
+            0%, 100% { transform: translate(-50%, -50%) rotate(0deg); filter: drop-shadow(0 0 10px #16a34a); }
+            25% { transform: translate(-50%, -50%) rotate(2deg); }
+            75% { transform: translate(-50%, -50%) rotate(-2deg); filter: drop-shadow(0 0 15px #0284c7); }
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--primary-color);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-reaction);
+        }
+
+        .feature-item:hover {
+            background: var(--secondary-color);
+            transform: translateX(8px);
+            border-left-color: var(--accent-molecule);
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--pure-white);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .feature-text {
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--secondary-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 3rem 2rem;
+            background: var(--pure-white);
+            border-radius: 24px;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--accent-reaction);
+        }
+
+        .stat-item:nth-child(2) {
+            border-top-color: var(--accent-molecule);
+        }
+
+        .stat-item:nth-child(3) {
+            border-top-color: var(--accent-catalyst);
+        }
+
+        .stat-item:nth-child(4) {
+            border-top-color: var(--accent-solution);
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background: var(--pure-white);
+            text-align: center;
+        }
+
+        .cta-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 3rem;
+            background: var(--gradient-reaction);
+            border-radius: 32px;
+            box-shadow: var(--shadow-medium);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: chemical-fizz 5s infinite;
+        }
+
+        @keyframes chemical-fizz {
+            0% { transform: translate(-50%, -50%) scale(1); opacity: 0.1; }
+            50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.3; }
+            100% { transform: translate(-50%, -50%) scale(1); opacity: 0.1; }
+        }
+
+        .cta-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: var(--pure-white);
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-container p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-final {
+            display: inline-block;
+            padding: 20px 50px;
+            background: var(--pure-white);
+            color: var(--accent-reaction);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-medium);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .cta-final:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-strong);
+            color: var(--accent-molecule);
+        }
+
+        .cta-final::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(22, 163, 74, 0.1), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-final:hover::before {
+            left: 100%;
+        }
+
+        /* Reaction Flow Animation */
+        .reaction-flow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .flow-particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-reaction);
+            border-radius: 50%;
+            animation: fluid-flow 6s infinite ease-in-out;
+            opacity: 0.6;
+        }
+
+        @keyframes fluid-flow {
+            0% { transform: translateX(0) translateY(0); opacity: 0.6; }
+            25% { transform: translateX(20px) translateY(-20px); opacity: 1; }
+            50% { transform: translateX(-10px) translateY(30px); opacity: 0.8; }
+            75% { transform: translateX(15px) translateY(-10px); opacity: 1; }
+            100% { transform: translateX(0) translateY(0); opacity: 0.6; }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .learning-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .importance-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .section {
+                padding: 80px 0;
+            }
+
+            .cta-primary, .cta-secondary {
+                display: block;
+                margin: 0.5rem 0;
+                text-align: center;
+            }
+
+            .cta-container {
+                padding: 3rem 2rem;
+                margin: 0 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 16px;
+            }
+
+            .importance-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .importance-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="bubbling-particles">
+            <div class="bubble-particle"></div>
+            <div class="bubble-particle"></div>
+            <div class="bubble-particle"></div>
+            <div class="bubble-particle"></div>
+            <div class="bubble-particle"></div>
+        </div>
+        <div class="reaction-flow">
+            <div class="flow-particle" style="top: 25%; left: 10%; animation-delay: 0s;"></div>
+            <div class="flow-particle" style="top: 55%; left: 30%; animation-delay: 1s;"></div>
+            <div class="flow-particle" style="top: 75%; left: 60%; animation-delay: 2s;"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🧪 Chemical Innovation</div>
+                <h1>Master Chemical Engineering with Dynamic Learning</h1>
+                <p class="hero-subtitle">Catalyze your future with comprehensive chemical engineering education through adaptive learning paths designed to clarify complex processes and ignite your career.</p>
+                <div style="margin-top: 2rem;">
+                    <a  href="{{ url_for('LO.Learning') }}" class="cta-primary">Begin Your Journey</a>
+                    <a href="#features" class="cta-secondary">Explore Features</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section class="section importance" id="learn-more">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Why Master This</div>
+                <h2 class="section-title">The Science of Transformation</h2>
+                <p class="section-subtitle">Chemical Engineering drives innovation in pharmaceuticals, sustainable energy, materials science, and environmental solutions, shaping a better world.</p>
+            </div>
+            
+            <div class="importance-grid">
+                <div class="importance-card">
+                    <div class="card-icon">🧪</div>
+                    <h3 class="card-title">Process Innovator</h3>
+                    <p class="card-description">Design and optimize chemical processes for producing pharmaceuticals, fuels, and advanced materials with efficiency and sustainability.</p>
+                </div>
+                
+                <div class="importance-card">
+                    <div class="card-icon">🌱</div>
+                    <h3 class="card-title">Sustainability Leader</h3>
+                    <p class="card-description">Develop eco-friendly processes like biofuel production, carbon capture, and waste recycling to combat climate change and promote sustainability.</p>
+                </div>
+                
+                <div class="importance-card">
+                    <div class="card-icon">⚗️</div>
+                    <h3 class="card-title">Materials Pioneer</h3>
+                    <p class="card-description">Engineer advanced materials like polymers, nanomaterials, and composites for applications in medicine, electronics, and aerospace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section class="section learning" id="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Learning Experience</div>
+                <h2 class="section-title">From Molecules to Processes</h2>
+                <p class="section-subtitle">Our comprehensive approach transforms complex chemical engineering concepts into clear understanding through simulations, virtual labs, and real-world applications.</p>
+            </div>
+            
+            <div class="learning-content">
+                <div class="learning-text">
+                    <h3>Theory Fuels Innovation</h3>
+                    <p>Master chemical engineering through hands-on process design, reaction kinetics, and thermodynamics, bridging theory with cutting-edge applications.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">🧪</div>
+                            <div class="feature-text">Interactive reaction and process simulation tools</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">⚙️</div>
+                            <div class="feature-text">Virtual labs for thermodynamics and fluid dynamics</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🔬</div>
+                            <div class="feature-text">Materials science and nanotechnology projects</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🌍</div>
+                            <div class="feature-text">Sustainable process design and environmental solutions</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="learning-visual"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Impact Metrics</div>
+                <h2 class="section-title">Chemical Excellence</h2>
+                <p class="section-subtitle">Join thousands of chemical engineering students and professionals who have mastered complex concepts through our innovative learning platform.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">92%</span>
+                    <div class="stat-label">Course Completion</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">85%</span>
+                    <div class="stat-label">Grade Improvement</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">40+</span>
+                    <div class="stat-label">Process Simulations</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">8x</span>
+                    <div class="stat-label">Design Efficiency</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section final-cta">
+        <div class="container">
+            <div class="cta-container">
+                <h2>Ready to Catalyze the Future?</h2>
+                <p>Master chemical engineering fundamentals through personalized learning that adapts to your pace and learning style. Build the foundation for a transformative engineering career.</p>
+                <a  href="{{ url_for('LO.Learning') }}" class="cta-final">Start Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -80px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Counter animation for stats
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 60;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                
+                const suffix = element.textContent.replace(/[\d]/g, '').trim();
+                element.textContent = Math.floor(current) + suffix;
+            }, 30);
+        }
+
+        // Animate counters when stats section is visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const text = stat.textContent.replace(/[^\d]/g, '');
+                        const targetValue = parseInt(text) || parseFloat(text);
+                        if (!isNaN(targetValue)) {
+                            animateCounter(stat, targetValue);
+                        }
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        document.querySelectorAll('.stats').forEach(section => {
+            statsObserver.observe(section);
+        });
+
+        // Handle dynamic fluid flow particles
+        function createFlowParticle() {
+            const flowContainer = document.querySelector('.reaction-flow');
+            const particle = document.createElement('div');
+            particle.classList.add('flow-particle');
+            const topPosition = Math.random() * 80 + 10; // Between 10% and 90%
+            const leftPosition = Math.random() * 80 + 10;
+            const delay = Math.random() * 4;
+            particle.style.top = `${topPosition}%`;
+            particle.style.left = `${leftPosition}%`;
+            particle.style.animationDelay = `${delay}s`;
+            flowContainer.appendChild(particle);
+
+            // Remove particle after animation completes
+            setTimeout(() => {
+                particle.remove();
+            }, 6000);
+        }
+
+        // Periodically create new flow particles
+        setInterval(createFlowParticle, 800);
+
+        // Handle dynamic bubble particles
+        function createBubbleParticle() {
+            const bubbleContainer = document.querySelector('.bubbling-particles');
+            const particle = document.createElement('div');
+            particle.classList.add('bubble-particle');
+            const leftPosition = Math.random() * 80 + 10;
+            const size = Math.random() * 6 + 6; // Size between 6px and 12px
+            const delay = Math.random() * 5;
+            particle.style.left = `${leftPosition}%`;
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.animationDelay = `${delay}s`;
+            particle.style.background = [
+                'var(--accent-reaction)',
+                'var(--accent-molecule)',
+                'var(--accent-catalyst)',
+                'var(--accent-solution)',
+                'var(--accent-energy)'
+            ][Math.floor(Math.random() * 5)];
+            bubbleContainer.appendChild(particle);
+
+            // Remove particle after animation completes
+            setTimeout(() => {
+                particle.remove();
+            }, 8000);
+        }
+
+        // Periodically create new bubble particles
+        setInterval(createBubbleParticle, 500);
+
+        // Lazy loading for images
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('img');
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+                images.forEach(img => imageObserver.observe(img));
+            }
+        });
+
+        // Accessibility: Handle keyboard navigation for CTAs
+        document.querySelectorAll('.cta-primary, .cta-secondary, .cta-final').forEach(button => {
+            button.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    button.click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Applying,Which metal is used in the manufacturing of aircrafts due to its light weight?,Iron,Copper,Aluminum,Lead,Aluminum,Easy
+2,LO1,Creating,Which cycle is used in steam power plants?,Otto,Rankine,Diesel,Carnot,Rankine,Easy
+3,LO1,Understanding,Which process increases the hardness of metals?,Tempering,Annealing,Hardening,Quenching,Hardening,Easy
+4,LO1,Analyzing,Which unit is used to measure force?,Joule,Watt,Newton,Pascal,Newton,Easy
+5,LO1,Analyzing,What is the purpose of a flywheel?,Generate electricity,Store kinetic energy,Reduce noise,Transfer heat,Store kinetic energy,Easy
+6,LO1,Evaluating,What is the SI unit of pressure?,Pascal,Bar,Newton,Joule,Pascal,Easy
+7,LO1,Creating,What kind of engine uses spark plugs?,Diesel,Steam,Petrol,Jet,Petrol,Easy
+8,LO1,Analyzing,What does a thermodynamic system exchange with its surroundings?,Energy and matter,Energy only,Matter only,Nothing,Energy and matter,Easy
+9,LO1,Applying,Which law states that stress is proportional to strain?,Newton's Law,Hooke's Law,Pascal’s Law,Bernoulli’s Law,Hooke's Law,Medium
+10,LO1,Remembering,Which method is used for metal casting?,Drilling,Turning,Sand casting,Brazing,Sand casting,Medium
+11,LO1,Creating,Which instrument is used to measure the rotational speed of a shaft?,Manometer,Tachometer,Barometer,Calorimeter,Tachometer,Medium
+12,LO1,Analyzing,"What component is used to transmit motion between non-parallel, non-intersecting shafts?",Spur gear,Bevel gear,Worm gear,Helical gear,Worm gear,Medium
+13,LO1,Evaluating,Which welding process uses a non-consumable electrode?,MIG,TIG,Gas welding,Arc welding,TIG,Medium
+14,LO1,Evaluating,Which fluid property resists the motion of one layer over another?,Viscosity,Density,Pressure,Entropy,Viscosity,Medium
+15,LO1,Applying,What does CAD stand for?,Computer Aided Drawing,Central Aided Design,Computer Aided Design,Controlled Assisted Design,Computer Aided Design,Medium
+16,LO1,Applying,What is the typical angle of twist per unit length called?,Stress,Strain,Shear modulus,Torsion,Torsion,Medium
+17,LO1,Remembering,What is the purpose of a Mollier diagram?,Plot pressure vs volume,Analyze heat transfer,Plot enthalpy vs entropy,Determine flow velocity,Plot enthalpy vs entropy,Hard
+18,LO1,Analyzing,Which process improves fatigue strength by inducing compressive stress?,Annealing,Peening,Normalizing,Tempering,Peening,Hard
+19,LO1,Creating,What is the function of an intercooler in a gas turbine?,Compress gas,Cool exhaust,Reduce pressure,Cool air between stages,Cool air between stages,Hard
+20,LO1,Creating,Which analysis is used in finite element methods?,Numerical analysis,Stress analysis,Matrix analysis,Both A and C,Both A and C,Hard
+21,LO1,Creating,Which mode of heat transfer occurs without a medium?,Conduction,Convection,Radiation,Boiling,Radiation,Hard
+22,LO1,Applying,What does the Knudsen number indicate?,Turbulence,Flow velocity,Molecular mean free path to characteristic length ratio,Reynolds stress,Molecular mean free path to characteristic length ratio,Hard
+23,LO1,Applying,What is creep in materials?,Sudden fracture,Slow deformation under constant stress,Thermal expansion,Plastic deformation,Slow deformation under constant stress,Hard
+24,LO1,Evaluating,What is Reynolds number used for?,Predict fluid compressibility,Indicate laminar or turbulent flow,Measure temperature gradient,Measure fluid density,Indicate laminar or turbulent flow,Hard
+25,LO2,Remembering,What is the SI unit of pressure?,Pascal,Bar,Newton,Joule,Pascal,Easy
+26,LO2,Remembering,Which cycle is used in steam power plants?,Otto,Rankine,Diesel,Carnot,Rankine,Easy
+27,LO2,Analyzing,Which unit is used to measure force?,Joule,Watt,Newton,Pascal,Newton,Easy
+28,LO2,Evaluating,What kind of engine uses spark plugs?,Diesel,Steam,Petrol,Jet,Petrol,Easy
+29,LO2,Analyzing,Which process increases the hardness of metals?,Tempering,Annealing,Hardening,Quenching,Hardening,Easy
+30,LO2,Creating,What does a thermodynamic system exchange with its surroundings?,Energy and matter,Energy only,Matter only,Nothing,Energy and matter,Easy
+31,LO2,Remembering,What is the purpose of a flywheel?,Generate electricity,Store kinetic energy,Reduce noise,Transfer heat,Store kinetic energy,Easy
+32,LO2,Creating,Which metal is used in the manufacturing of aircrafts due to its light weight?,Iron,Copper,Aluminum,Lead,Aluminum,Easy
+33,LO2,Applying,"What component is used to transmit motion between non-parallel, non-intersecting shafts?",Spur gear,Bevel gear,Worm gear,Helical gear,Worm gear,Medium
+34,LO2,Analyzing,Which law states that stress is proportional to strain?,Newton's Law,Hooke's Law,Pascal’s Law,Bernoulli’s Law,Hooke's Law,Medium
+35,LO2,Applying,Which instrument is used to measure the rotational speed of a shaft?,Manometer,Tachometer,Barometer,Calorimeter,Tachometer,Medium
+36,LO2,Analyzing,Which method is used for metal casting?,Drilling,Turning,Sand casting,Brazing,Sand casting,Medium
+37,LO2,Creating,What is the typical angle of twist per unit length called?,Stress,Strain,Shear modulus,Torsion,Torsion,Medium
+38,LO2,Understanding,Which fluid property resists the motion of one layer over another?,Viscosity,Density,Pressure,Entropy,Viscosity,Medium
+39,LO2,Creating,Which welding process uses a non-consumable electrode?,MIG,TIG,Gas welding,Arc welding,TIG,Medium
+40,LO2,Evaluating,What does CAD stand for?,Computer Aided Drawing,Central Aided Design,Computer Aided Design,Controlled Assisted Design,Computer Aided Design,Medium
+41,LO2,Creating,Which process improves fatigue strength by inducing compressive stress?,Annealing,Peening,Normalizing,Tempering,Peening,Hard
+42,LO2,Remembering,What is the purpose of a Mollier diagram?,Plot pressure vs volume,Analyze heat transfer,Plot enthalpy vs entropy,Determine flow velocity,Plot enthalpy vs entropy,Hard
+43,LO2,Evaluating,What is creep in materials?,Sudden fracture,Slow deformation under constant stress,Thermal expansion,Plastic deformation,Slow deformation under constant stress,Hard
+44,LO2,Creating,Which mode of heat transfer occurs without a medium?,Conduction,Convection,Radiation,Boiling,Radiation,Hard
+45,LO2,Understanding,Which analysis is used in finite element methods?,Numerical analysis,Stress analysis,Matrix analysis,Both A and C,Both A and C,Hard
+46,LO2,Analyzing,What is the function of an intercooler in a gas turbine?,Compress gas,Cool exhaust,Reduce pressure,Cool air between stages,Cool air between stages,Hard
+47,LO2,Evaluating,What does the Knudsen number indicate?,Turbulence,Flow velocity,Molecular mean free path to characteristic length ratio,Reynolds stress,Molecular mean free path to characteristic length ratio,Hard
+48,LO2,Analyzing,What is Reynolds number used for?,Predict fluid compressibility,Indicate laminar or turbulent flow,Measure temperature gradient,Measure fluid density,Indicate laminar or turbulent flow,Hard
+49,LO3,Understanding,Which metal is used in the manufacturing of aircrafts due to its light weight?,Iron,Copper,Aluminum,Lead,Aluminum,Easy
+50,LO3,Evaluating,What is the SI unit of pressure?,Pascal,Bar,Newton,Joule,Pascal,Easy
+51,LO3,Applying,Which cycle is used in steam power plants?,Otto,Rankine,Diesel,Carnot,Rankine,Easy
+52,LO3,Analyzing,What does a thermodynamic system exchange with its surroundings?,Energy and matter,Energy only,Matter only,Nothing,Energy and matter,Easy
+53,LO3,Remembering,What is the purpose of a flywheel?,Generate electricity,Store kinetic energy,Reduce noise,Transfer heat,Store kinetic energy,Easy
+54,LO3,Remembering,Which process increases the hardness of metals?,Tempering,Annealing,Hardening,Quenching,Hardening,Easy
+55,LO3,Remembering,What kind of engine uses spark plugs?,Diesel,Steam,Petrol,Jet,Petrol,Easy
+56,LO3,Evaluating,Which unit is used to measure force?,Joule,Watt,Newton,Pascal,Newton,Easy
+57,LO3,Analyzing,Which welding process uses a non-consumable electrode?,MIG,TIG,Gas welding,Arc welding,TIG,Medium
+58,LO3,Understanding,Which fluid property resists the motion of one layer over another?,Viscosity,Density,Pressure,Entropy,Viscosity,Medium
+59,LO3,Applying,Which law states that stress is proportional to strain?,Newton's Law,Hooke's Law,Pascal’s Law,Bernoulli’s Law,Hooke's Law,Medium
+60,LO3,Creating,Which method is used for metal casting?,Drilling,Turning,Sand casting,Brazing,Sand casting,Medium
+61,LO3,Evaluating,What does CAD stand for?,Computer Aided Drawing,Central Aided Design,Computer Aided Design,Controlled Assisted Design,Computer Aided Design,Medium
+62,LO3,Remembering,Which instrument is used to measure the rotational speed of a shaft?,Manometer,Tachometer,Barometer,Calorimeter,Tachometer,Medium
+63,LO3,Remembering,"What component is used to transmit motion between non-parallel, non-intersecting shafts?",Spur gear,Bevel gear,Worm gear,Helical gear,Worm gear,Medium
+64,LO3,Remembering,What is the typical angle of twist per unit length called?,Stress,Strain,Shear modulus,Torsion,Torsion,Medium
+65,LO3,Analyzing,Which mode of heat transfer occurs without a medium?,Conduction,Convection,Radiation,Boiling,Radiation,Hard
+66,LO3,Analyzing,What is the function of an intercooler in a gas turbine?,Compress gas,Cool exhaust,Reduce pressure,Cool air between stages,Cool air between stages,Hard
+67,LO3,Remembering,What does the Knudsen number indicate?,Turbulence,Flow velocity,Molecular mean free path to characteristic length ratio,Reynolds stress,Molecular mean free path to characteristic length ratio,Hard
+68,LO3,Creating,What is Reynolds number used for?,Predict fluid compressibility,Indicate laminar or turbulent flow,Measure temperature gradient,Measure fluid density,Indicate laminar or turbulent flow,Hard
+69,LO3,Creating,Which analysis is used in finite element methods?,Numerical analysis,Stress analysis,Matrix analysis,Both A and C,Both A and C,Hard
+70,LO3,Creating,What is creep in materials?,Sudden fracture,Slow deformation under constant stress,Thermal expansion,Plastic deformation,Slow deformation under constant stress,Hard
+71,LO3,Remembering,What is the purpose of a Mollier diagram?,Plot pressure vs volume,Analyze heat transfer,Plot enthalpy vs entropy,Determine flow velocity,Plot enthalpy vs entropy,Hard
+72,LO3,Analyzing,Which process improves fatigue strength by inducing compressive stress?,Annealing,Peening,Normalizing,Tempering,Peening,Hard
+73,LO4,Applying,What does a thermodynamic system exchange with its surroundings?,Energy and matter,Energy only,Matter only,Nothing,Energy and matter,Easy
+74,LO4,Analyzing,What kind of engine uses spark plugs?,Diesel,Steam,Petrol,Jet,Petrol,Easy
+75,LO4,Creating,What is the SI unit of pressure?,Pascal,Bar,Newton,Joule,Pascal,Easy
+76,LO4,Applying,Which unit is used to measure force?,Joule,Watt,Newton,Pascal,Newton,Easy
+77,LO4,Creating,What is the purpose of a flywheel?,Generate electricity,Store kinetic energy,Reduce noise,Transfer heat,Store kinetic energy,Easy
+78,LO4,Remembering,Which cycle is used in steam power plants?,Otto,Rankine,Diesel,Carnot,Rankine,Easy
+79,LO4,Understanding,Which process increases the hardness of metals?,Tempering,Annealing,Hardening,Quenching,Hardening,Easy
+80,LO4,Understanding,Which metal is used in the manufacturing of aircrafts due to its light weight?,Iron,Copper,Aluminum,Lead,Aluminum,Easy
+81,LO4,Evaluating,"What component is used to transmit motion between non-parallel, non-intersecting shafts?",Spur gear,Bevel gear,Worm gear,Helical gear,Worm gear,Medium
+82,LO4,Applying,Which method is used for metal casting?,Drilling,Turning,Sand casting,Brazing,Sand casting,Medium
+83,LO4,Remembering,Which welding process uses a non-consumable electrode?,MIG,TIG,Gas welding,Arc welding,TIG,Medium
+84,LO4,Analyzing,Which instrument is used to measure the rotational speed of a shaft?,Manometer,Tachometer,Barometer,Calorimeter,Tachometer,Medium
+85,LO4,Remembering,Which law states that stress is proportional to strain?,Newton's Law,Hooke's Law,Pascal’s Law,Bernoulli’s Law,Hooke's Law,Medium
+86,LO4,Creating,What is the typical angle of twist per unit length called?,Stress,Strain,Shear modulus,Torsion,Torsion,Medium
+87,LO4,Understanding,Which fluid property resists the motion of one layer over another?,Viscosity,Density,Pressure,Entropy,Viscosity,Medium
+88,LO4,Understanding,What does CAD stand for?,Computer Aided Drawing,Central Aided Design,Computer Aided Design,Controlled Assisted Design,Computer Aided Design,Medium
+89,LO4,Remembering,What is creep in materials?,Sudden fracture,Slow deformation under constant stress,Thermal expansion,Plastic deformation,Slow deformation under constant stress,Hard
+90,LO4,Applying,Which analysis is used in finite element methods?,Numerical analysis,Stress analysis,Matrix analysis,Both A and C,Both A and C,Hard
+91,LO4,Understanding,What is Reynolds number used for?,Predict fluid compressibility,Indicate laminar or turbulent flow,Measure temperature gradient,Measure fluid density,Indicate laminar or turbulent flow,Hard
+92,LO4,Understanding,What does the Knudsen number indicate?,Turbulence,Flow velocity,Molecular mean free path to characteristic length ratio,Reynolds stress,Molecular mean free path to characteristic length ratio,Hard
+93,LO4,Applying,Which mode of heat transfer occurs without a medium?,Conduction,Convection,Radiation,Boiling,Radiation,Hard
+94,LO4,Analyzing,Which process improves fatigue strength by inducing compressive stress?,Annealing,Peening,Normalizing,Tempering,Peening,Hard
+95,LO4,Remembering,What is the purpose of a Mollier diagram?,Plot pressure vs volume,Analyze heat transfer,Plot enthalpy vs entropy,Determine flow velocity,Plot enthalpy vs entropy,Hard
+96,LO4,Creating,What is the function of an intercooler in a gas turbine?,Compress gas,Cool exhaust,Reduce pressure,Cool air between stages,Cool air between stages,Hard
+97,LO5,Analyzing,Which unit is used to measure force?,Joule,Watt,Newton,Pascal,Newton,Easy
+98,LO5,Evaluating,What does a thermodynamic system exchange with its surroundings?,Energy and matter,Energy only,Matter only,Nothing,Energy and matter,Easy
+99,LO5,Remembering,What kind of engine uses spark plugs?,Diesel,Steam,Petrol,Jet,Petrol,Easy
+100,LO5,Understanding,What is the purpose of a flywheel?,Generate electricity,Store kinetic energy,Reduce noise,Transfer heat,Store kinetic energy,Easy
+101,LO5,Understanding,Which metal is used in the manufacturing of aircrafts due to its light weight?,Iron,Copper,Aluminum,Lead,Aluminum,Easy
+102,LO5,Analyzing,Which process increases the hardness of metals?,Tempering,Annealing,Hardening,Quenching,Hardening,Easy
+103,LO5,Understanding,What is the SI unit of pressure?,Pascal,Bar,Newton,Joule,Pascal,Easy
+104,LO5,Remembering,Which cycle is used in steam power plants?,Otto,Rankine,Diesel,Carnot,Rankine,Easy
+105,LO5,Understanding,Which law states that stress is proportional to strain?,Newton's Law,Hooke's Law,Pascal’s Law,Bernoulli’s Law,Hooke's Law,Medium
+106,LO5,Evaluating,Which fluid property resists the motion of one layer over another?,Viscosity,Density,Pressure,Entropy,Viscosity,Medium
+107,LO5,Creating,What does CAD stand for?,Computer Aided Drawing,Central Aided Design,Computer Aided Design,Controlled Assisted Design,Computer Aided Design,Medium
+108,LO5,Analyzing,"What component is used to transmit motion between non-parallel, non-intersecting shafts?",Spur gear,Bevel gear,Worm gear,Helical gear,Worm gear,Medium
+109,LO5,Understanding,Which welding process uses a non-consumable electrode?,MIG,TIG,Gas welding,Arc welding,TIG,Medium
+110,LO5,Creating,What is the typical angle of twist per unit length called?,Stress,Strain,Shear modulus,Torsion,Torsion,Medium
+111,LO5,Remembering,Which instrument is used to measure the rotational speed of a shaft?,Manometer,Tachometer,Barometer,Calorimeter,Tachometer,Medium
+112,LO5,Creating,Which method is used for metal casting?,Drilling,Turning,Sand casting,Brazing,Sand casting,Medium
+113,LO5,Remembering,What is creep in materials?,Sudden fracture,Slow deformation under constant stress,Thermal expansion,Plastic deformation,Slow deformation under constant stress,Hard
+114,LO5,Analyzing,What is the purpose of a Mollier diagram?,Plot pressure vs volume,Analyze heat transfer,Plot enthalpy vs entropy,Determine flow velocity,Plot enthalpy vs entropy,Hard
+115,LO5,Creating,Which mode of heat transfer occurs without a medium?,Conduction,Convection,Radiation,Boiling,Radiation,Hard
+116,LO5,Creating,Which analysis is used in finite element methods?,Numerical analysis,Stress analysis,Matrix analysis,Both A and C,Both A and C,Hard
+117,LO5,Remembering,What does the Knudsen number indicate?,Turbulence,Flow velocity,Molecular mean free path to characteristic length ratio,Reynolds stress,Molecular mean free path to characteristic length ratio,Hard
+118,LO5,Understanding,What is Reynolds number used for?,Predict fluid compressibility,Indicate laminar or turbulent flow,Measure temperature gradient,Measure fluid density,Indicate laminar or turbulent flow,Hard
+119,LO5,Remembering,What is the function of an intercooler in a gas turbine?,Compress gas,Cool exhaust,Reduce pressure,Cool air between stages,Cool air between stages,Hard
+120,LO5,Understanding,Which process improves fatigue strength by inducing compressive stress?,Annealing,Peening,Normalizing,Tempering,Peening,Hard

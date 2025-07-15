@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Remembering,What is the primary function of a resistor in a circuit?,Limit current flow,Store electrical energy,Amplify voltage,Generate magnetic fields,Limit current flow,Easy
+2,LO1,Remembering,What does Ohm’s Law state?,V = IR,P = VI,E = mc²,F = ma,V = IR,Easy
+3,LO1,Remembering,What is the unit of capacitance?,Farad,Ohm,Watt,Henry,Farad,Easy
+4,LO1,Remembering,What is the purpose of a capacitor in a circuit?,Store electrical charge,Regulate current,Amplify signals,Convert AC to DC,Store electrical charge,Easy
+5,LO1,Remembering,What does a diode primarily do?,Allow current in one direction,Store energy,Increase voltage,Generate heat,Allow current in one direction,Easy
+6,LO1,Remembering,What is the SI unit of electrical power?,Watt,Joule,Ampere,Volt,Watt,Easy
+7,LO1,Remembering,What is a series circuit?,Components share one path,Components have multiple paths,Components are isolated,Components share voltage only,Components share one path,Easy
+8,LO1,Remembering,What is the role of an inductor?,Store energy in a magnetic field,Limit current flow,Amplify signals,Convert DC to AC,Store energy in a magnetic field,Easy
+9,LO1,Understanding,Why is Ohm’s Law important in circuit analysis?,Relates voltage, current, resistance,Calculates power loss,Measures magnetic fields,Determines capacitance,Relates voltage, current, resistance,Medium
+10,LO1,Understanding,How does a capacitor differ from a resistor?,Stores charge vs. limits current,Amplifies signals,Converts AC to DC,Generates heat,Stores charge vs. limits current,Medium
+11,LO1,Understanding,What is the significance of a diode in rectification?,Converts AC to DC,Increases voltage,Reduces resistance,Stores energy,Converts AC to DC,Medium
+12,LO1,Understanding,Why is a series circuit different from a parallel circuit?,Single vs. multiple current paths,High vs. low resistance,AC vs. DC operation,Fixed vs. variable voltage,Single vs. multiple current paths,Medium
+13,LO1,Understanding,What role does an inductor play in AC circuits?,Opposes current changes,Increases voltage,Reduces capacitance,Amplifies signals,Opposes current changes,Medium
+14,LO1,Understanding,Why is capacitance critical in filter circuits?,Controls frequency response,Increases current flow,Reduces power loss,Generates magnetic fields,Controls frequency response,Medium
+15,LO1,Understanding,How does Kirchhoff’s Voltage Law apply to circuits?,Sum of voltages equals zero,Sum of currents equals zero,Voltage increases with resistance,Current is constant,Sum of voltages equals zero,Medium
+16,LO1,Understanding,What is the benefit of using a parallel circuit?,Maintains function if one path fails,Reduces total resistance,Increases voltage drop,Simplifies current flow,Maintains function if one path fails,Medium
+17,LO1,Applying,How would you calculate the total resistance in a series circuit?,Sum individual resistances,Multiply resistances,Divide resistances,Average resistances,Sum individual resistances,Hard
+18,LO1,Applying,What factor is critical when selecting a capacitor for a filter?,Capacitance value,Resistance value,Voltage amplification,Inductance level,Capacitance value,Hard
+19,LO1,Applying,How would you use Kirchhoff’s Current Law in a circuit?,Sum currents at a node,Calculate total voltage,Measure resistance,Determine power loss,Sum currents at a node,Hard
+20,LO1,Analyzing,Why might a circuit fail due to a faulty diode?,Reverse current flow,Excessive capacitance,High inductance,Low voltage drop,Reverse current flow,Hard
+21,LO1,Analyzing,What challenge arises in designing a series circuit?,Voltage division,Current overload,Capacitance mismatch,Inductance failure,Voltage division,Hard
+22,LO1,Evaluating,Which component is best for smoothing AC signals?,Capacitor,Resistor,Diode,Inductor,Capacitor,Hard
+23,LO1,Analyzing,Why is a high resistance problematic in a power circuit?,Increases power loss,Reduces current flow,Increases voltage gain,Lowers capacitance,Increases power loss,Hard
+24,LO1,Evaluating,Which law is most critical for analyzing complex circuits?,Kirchhoff’s Laws,Ohm’s Law,Faraday’s Law,Newton’s Law,Kirchhoff’s Laws,Hard
+25,LO2,Remembering,What is the primary function of a transistor?,Amplify or switch signals,Store electrical charge,Regulate voltage,Generate magnetic fields,Amplify or switch signals,Easy
+26,LO2,Remembering,What does a BJT stand for?,Bipolar Junction Transistor,Basic Junction Terminal,Binary Junction Transistor,Balanced Junction Transformer,Bipolar Junction Transistor,Easy
+27,LO2,Remembering,What is the role of an operational amplifier (op-amp)?,Amplify voltage signals,Convert AC to DC,Store magnetic energy,Limit current flow,Amplify voltage signals,Easy
+28,LO2,Remembering,What is a MOSFET used for?,Switching and amplification,Filtering signals,Storing charge,Regulating temperature,Switching and amplification,Easy
+29,LO2,Remembering,What does a logic gate do?,Perform binary operations,Measure voltage drop,Store electrical energy,Convert DC to AC,Perform binary operations,Easy
+30,LO2,Remembering,What is the purpose of a rectifier circuit?,Convert AC to DC,Amplify signals,Reduce resistance,Store charge,Convert AC to DC,Easy
+31,LO2,Remembering,What is the unit of gain in an amplifier?,Decibel,Watt,Ohm,Farad,Decibel,Easy
+32,LO2,Remembering,What does an AND gate output?,High if all inputs are high,High if any input is high,Low if all inputs are high,Low if any input is high,High if all inputs are high,Easy
+33,LO2,Understanding,Why is a transistor critical in electronics?,Enables signal control,Reduces circuit resistance,Increases capacitance,Converts AC to DC,Enables signal control,Medium
+34,LO2,Understanding,How does a BJT differ from a MOSFET?,Current vs. voltage control,High vs. low resistance,AC vs. DC operation,Analog vs. digital signals,Current vs. voltage control,Medium
+35,LO2,Understanding,What is the advantage of an op-amp in circuits?,High gain and versatility,Low power consumption,High capacitance,Low frequency response,High gain and versatility,Medium
+36,LO2,Understanding,Why is a rectifier used in power supplies?,Converts AC to DC,Increases voltage gain,Reduces current flow,Amplifies signals,Converts AC to DC,Medium
+37,LO2,Understanding,How does an AND gate differ from an OR gate?,Requires all vs. any high inputs,High vs. low resistance,Analog vs. digital output,AC vs. DC operation,Requires all vs. any high inputs,Medium
+38,LO2,Understanding,What role does a MOSFET play in digital circuits?,Efficient switching,Signal filtering,Charge storage,Voltage regulation,Efficient switching,Medium
+39,LO2,Understanding,Why is gain important in amplifiers?,Measures signal amplification,Reduces power loss,Increases resistance,Controls frequency response,Measures signal amplification,Medium
+40,LO2,Understanding,What is the benefit of using logic gates in circuits?,Enables digital processing,Increases analog signals,Reduces capacitance,Controls temperature,Enables digital processing,Medium
+41,LO2,Applying,How would you design an amplifier for audio signals?,Use an op-amp with high gain,Select a high-resistance diode,Use a low-capacitance inductor,Apply a rectifier circuit,Use an op-amp with high gain,Hard
+42,LO2,Applying,What factor is critical in selecting a MOSFET for switching?,Low on-resistance,High capacitance,Low voltage gain,High inductance,Low on-resistance,Hard
+43,LO2,Applying,How would you use a logic gate for a control system?,Implement binary decision logic,Increase signal frequency,Reduce circuit resistance,Store electrical charge,Implement binary decision logic,Hard
+44,LO2,Analyzing,Why might an amplifier circuit fail?,Due to improper biasing,Because of high capacitance,From low resistance,Due to excessive voltage gain,Due to improper biasing,Hard
+45,LO2,Analyzing,What challenge arises in designing digital circuits?,Signal timing issues,High power loss,Low frequency response,Excessive capacitance,Signal timing issues,Hard
+46,LO2,Evaluating,Which component is best for high-speed switching?,MOSFET,BJT,Diode,Capacitor,MOSFET,Hard
+47,LO2,Analyzing,Why is a rectifier critical in DC power supplies?,Ensures unidirectional current,Increases signal gain,Reduces circuit resistance,Controls temperature,Ensures unidirectional current,Hard
+48,LO2,Evaluating,Which logic gate is most suitable for a safety interlock?,AND gate,OR gate,NOT gate,XOR gate,AND gate,Hard
+49,LO3,Remembering,What is the primary goal of power systems in EEE?,Deliver reliable electricity,Design digital circuits,Amplify signals,Measure resistance,Deliver reliable electricity,Easy
+50,LO3,Remembering,What does a transformer do?,Change voltage levels,Store electrical charge,Amplify signals,Convert DC to AC,Change voltage levels,Easy
+51,LO3,Remembering,What is the unit of power in a power system?,Watt,Ohm,Farad,Henry,Watt,Easy
+52,LO3,Remembering,What is the purpose of a circuit breaker?,Protect against overcurrent,Amplify voltage,Store energy,Regulate frequency,Protect against overcurrent,Easy
+53,LO3,Remembering,What does a synchronous generator produce?,AC power,DC power,High resistance,Low capacitance,AC power,Easy
+54,LO3,Remembering,What is a power factor?,Ratio of real to apparent power,Measure of voltage drop,Unit of capacitance,Indicator of resistance,Ratio of real to apparent power,Easy
+55,LO3,Remembering,What is the role of a substation?,Manage power distribution,Amplify signals,Store charge,Convert AC to DC,Manage power distribution,Easy
+56,LO3,Remembering,What does a three-phase system provide?,Efficient power transmission,High resistance,Low capacitance,Single-phase power,Efficient power transmission,Easy
+57,LO3,Understanding,Why is a transformer critical in power systems?,Adjusts voltage for transmission,Increases circuit resistance,Reduces power frequency,Amplifies current,Adjusts voltage for transmission,Medium
+58,LO3,Understanding,How does a circuit breaker enhance safety?,Interrupts fault currents,Increases voltage gain,Reduces capacitance,Controls frequency,Interrupts fault currents,Medium
+59,LO3,Understanding,What is the benefit of a high power factor?,Reduces energy losses,Increases resistance,Amplifies signals,Lowers voltage drop,Reduces energy losses,Medium
+60,LO3,Understanding,Why is a three-phase system preferred for transmission?,Higher efficiency,Lower frequency,High resistance,Single-phase operation,Higher efficiency,Medium
+61,LO3,Understanding,How does a synchronous generator differ from an induction generator?,Maintains constant frequency,Operates at variable speed,Produces DC power,Has higher resistance,Maintains constant frequency,Medium
+62,LO3,Understanding,What role does a substation play in power grids?,Steps up/down voltage,Amplifies signals,Reduces capacitance,Controls current flow,Steps up/down voltage,Medium
+63,LO3,Understanding,Why is power factor correction important?,Improves system efficiency,Increases voltage drop,Reduces frequency,Amplifies signals,Improves system efficiency,Medium
+64,LO3,Understanding,What is the advantage of high-voltage transmission?,Reduces transmission losses,Increases circuit resistance,Lowers power frequency,Amplifies current,Reduces transmission losses,Medium
+65,LO3,Applying,How would you select a transformer for a power grid?,Match voltage and power ratings,Increase circuit resistance,Reduce power frequency,Amplify current,Match voltage and power ratings,Hard
+66,LO3,Applying,What factor is critical in designing a circuit breaker?,Fault current capacity,High capacitance,Low voltage gain,High inductance,Fault current capacity,Hard
+67,LO3,Applying,How would you improve power factor in a system?,Add capacitor banks,Increase resistance,Reduce frequency,Amplify signals,Add capacitor banks,Hard
+68,LO3,Analyzing,Why might a power system fail?,Due to overload,Because of high capacitance,From low resistance,Due to excessive voltage gain,Due to overload,Hard
+69,LO3,Analyzing,What challenge arises in three-phase system design?,Phase balancing,High power loss,Low frequency response,Excessive capacitance,Phase balancing,Hard
+70,LO3,Evaluating,Which component is best for voltage regulation?,Transformer,Capacitor,Diode,Inductor,Transformer,Hard
+71,LO3,Analyzing,Why is transmission loss critical in power systems?,Affects efficiency,Increases frequency,Reduces resistance,Amplifies signals,Affects efficiency,Hard
+72,LO3,Evaluating,Which system is most efficient for long-distance transmission?,Three-phase AC,Single-phase AC,DC transmission,Low-voltage AC,Three-phase AC,Hard
+73,LO4,Remembering,What is the primary goal of control systems in EEE?,Regulate system behavior,Amplify signals,Store charge,Convert AC to DC,Regulate system behavior,Easy
+74,LO4,Remembering,What does a PID controller stand for?,Proportional-Integral-Derivative,Primary-Input-Delay,Phase-Input-Diode,Power-Integral-Derivative,Proportional-Integral-Derivative,Easy
+75,LO4,Remembering,What is the purpose of a feedback loop?,Stabilize system output,Increase resistance,Amplify signals,Store energy,Stabilize system output,Easy
+76,LO4,Remembering,What does a transfer function represent?,System input-output relation,Power loss,Capacitance level,Frequency modulation,System input-output relation,Easy
+77,LO4,Remembering,What is a common actuator in control systems?,Motor,Resistor,Diode,Capacitor,Motor,Easy
+78,LO4,Remembering,What is the role of a sensor in control systems?,Measure system variables,Amplify signals,Store charge,Convert DC to AC,Measure system variables,Easy
+79,LO4,Remembering,What does stability mean in control systems?,System remains bounded,High power loss,Low capacitance,Constant frequency,System remains bounded,Easy
+80,LO4,Remembering,What is a setpoint in a control system?,Desired output value,Maximum power limit,Minimum resistance,Constant voltage,Desired output value,Easy
+81,LO4,Understanding,Why is a PID controller widely used?,Balances speed and stability,Increases resistance,Reduces capacitance,Amplifies signals,Balances speed and stability,Medium
+82,LO4,Understanding,How does a feedback loop improve system performance?,Corrects output errors,Increases power loss,Reduces frequency,Amplifies current,Corrects output errors,Medium
+83,LO4,Understanding,What is the benefit of a transfer function?,Models system dynamics,Increases resistance,Reduces capacitance,Controls power flow,Models system dynamics,Medium
+84,LO4,Understanding,Why is stability critical in control systems?,Prevents oscillations,Increases power loss,Reduces frequency,Amplifies signals,Prevents oscillations,Medium
+85,LO4,Understanding,How does a sensor contribute to control systems?,Provides real-time data,Increases resistance,Reduces power loss,Controls frequency,Provides real-time data,Medium
+86,LO4,Understanding,What role does an actuator play in control systems?,Executes control actions,Amplifies signals,Stores charge,Converts AC to DC,Executes control actions,Medium
+87,LO4,Understanding,Why is a setpoint important in control design?,Defines target performance,Increases resistance,Reduces capacitance,Controls power flow,Defines target performance,Medium
+88,LO4,Understanding,What is the advantage of closed-loop control?,Improves accuracy,Increases power loss,Reduces frequency,Amplifies signals,Improves accuracy,Medium
+89,LO4,Applying,How would you tune a PID controller for a motor?,Adjust gain parameters,Increase resistance,Reduce capacitance,Amplify signals,Adjust gain parameters,Hard
+90,LO4,Applying,What factor is critical in designing a feedback loop?,Loop stability,High power loss,Low frequency,Excessive capacitance,Loop stability,Hard
+91,LO4,Applying,How would you use a transfer function in system design?,Model input-output behavior,Increase resistance,Reduce power loss,Control frequency,Model input-output behavior,Hard
+92,LO4,Analyzing,Why might a control system become unstable?,Due to high gain,Because of low resistance,From high capacitance,Due to excessive power loss,Due to high gain,Hard
+93,LO4,Analyzing,What challenge arises in sensor selection?,Accuracy and response time,High power loss,Low frequency,Excessive capacitance,Accuracy and response time,Hard
+94,LO4,Evaluating,Which controller is best for precise motor control?,PID controller,On-off controller,Proportional controller,Integral controller,PID controller,Hard
+95,LO4,Analyzing,Why is feedback critical in closed-loop systems?,Corrects deviations,Increases resistance,Reduces capacitance,Controls power flow,Corrects deviations,Hard
+96,LO4,Evaluating,Which factor is most critical for system stability?,Gain margin,Power loss,Capacitance level,Frequency modulation,Gain margin,Hard
+97,LO5,Remembering,What is the primary goal of signal processing in EEE?,Analyze and modify signals,Design power systems,Amplify voltage,Store charge,Analyze and modify signals,Easy
+98,LO5,Remembering,What does FFT stand for?,Fast Fourier Transform,Frequency Filter Technique,Fast Frequency Transition,Finite Fourier Transform,Fast Fourier Transform,Easy
+99,LO5,Remembering,What is the purpose of a low-pass filter?,Allow low-frequency signals,Amplify high frequencies,Store electrical charge,Convert AC to DC,Allow low-frequency signals,Easy
+100,LO5,Remembering,What does a digital signal processor (DSP) do?,Process digital signals,Regulate voltage,Store energy,Convert DC to AC,Process digital signals,Easy
+101,LO5,Remembering,What is the unit of frequency?,Hertz,Watt,Ohm,Farad,Hertz,Easy
+102,LO5,Remembering,What is a Fourier Transform used for?,Convert time to frequency domain,Measure resistance,Amplify signals,Store charge,Convert time to frequency domain,Easy
+103,LO5,Remembering,What does aliasing mean in signal processing?,Signal distortion due to sampling,High power loss,Low capacitance,Excessive amplification,Signal distortion due to sampling,Easy
+104,LO5,Remembering,What is the role of a bandpass filter?,Allow specific frequency range,Increase resistance,Reduce power loss,Convert AC to DC,Allow specific frequency range,Easy
+105,LO5,Understanding,Why is FFT important in signal processing?,Speeds up frequency analysis,Increases power loss,Reduces capacitance,Controls voltage,Speeds up frequency analysis,Medium
+106,LO5,Understanding,How does a low-pass filter differ from a high-pass filter?,Allows low vs. high frequencies,Increases vs. decreases resistance,Amplifies vs. reduces signals,Converts AC vs. DC,Allows low vs. high frequencies,Medium
+107,LO5,Understanding,What is the benefit of a DSP in real-time systems?,Fast signal processing,Increases resistance,Reduces capacitance,Controls power flow,Fast signal processing,Medium
+108,LO5,Understanding,Why is aliasing problematic in signal processing?,Causes signal distortion,Increases power loss,Reduces frequency,Amplifies signals,Causes signal distortion,Medium
+109,LO5,Understanding,How does a Fourier Transform aid signal analysis?,Converts to frequency domain,Increases resistance,Reduces power loss,Controls voltage,Converts to frequency domain,Medium
+110,LO5,Understanding,What role does a bandpass filter play in communication?,Isolates signal frequencies,Increases power loss,Reduces capacitance,Amplifies signals,Isolates signal frequencies,Medium
+111,LO5,Understanding,Why is sampling rate critical in signal processing?,Prevents aliasing,Increases resistance,Reduces power loss,Controls frequency,Prevents aliasing,Medium
+112,LO5,Understanding,What is the advantage of digital signal processing?,High precision and flexibility,Increases power loss,Reduces capacitance,Controls voltage,High precision and flexibility,Medium
+113,LO5,Applying,How would you design a low-pass filter for audio?,Set cutoff frequency,Increase resistance,Reduce capacitance,Amplify signals,Set cutoff frequency,Hard
+114,LO5,Applying,What factor is critical in selecting a DSP?,Processing speed,High resistance,Low capacitance,Excessive amplification,Processing speed,Hard
+115,LO5,Applying,How would you use FFT in signal analysis?,Convert to frequency domain,Increase power loss,Reduce resistance,Control voltage,Convert to frequency domain,Hard
+116,LO5,Analyzing,Why might a signal processing system fail?,Due to aliasing,Because of high resistance,From low capacitance,Due to excessive amplification,Due to aliasing,Hard
+117,LO5,Analyzing,What challenge arises in designing digital filters?,Accurate frequency response,High power loss,Low resistance,Excessive capacitance,Accurate frequency response,Hard
+118,LO5,Evaluating,Which tool is best for frequency domain analysis?,FFT,Time-domain analysis,Resistance meter,Voltage amplifier,FFT,Hard
+119,LO5,Analyzing,Why is sampling rate critical in digital systems?,Ensures signal accuracy,Increases power loss,Reduces capacitance,Controls voltage,Ensures signal accuracy,Hard
+120,LO5,Evaluating,Which filter is most suitable for noise reduction?,Low-pass filter,High-pass filter,Bandpass filter,Notch filter,Low-pass filter,Hard

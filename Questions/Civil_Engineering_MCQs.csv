@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Remembering,What is the primary purpose of a foundation in civil engineering?,To transfer loads to deeper soil layers,To enhance building aesthetics,To provide insulation,To increase building height,To transfer loads to deeper soil layers,Easy
+2,LO1,Remembering,Which material is most commonly used in modern building construction?,Steel,Aluminum,Timber,Plastic,Steel,Easy
+3,LO1,Remembering,What does the term "dead load" refer to in structural engineering?,Variable loads like wind,Weight of the structure itself,Live loads like occupants,Temporary construction loads,Weight of the structure itself,Easy
+4,LO1,Remembering,What is the primary function of a retaining wall?,To hold back soil or water,To support roof structures,To provide thermal insulation,To reduce noise pollution,To hold back soil or water,Easy
+5,LO1,Remembering,Which type of foundation is used for light structures on stable soil?,Strip foundation,Pad foundation,Raft foundation,Pile foundation,Pad foundation,Easy
+6,LO1,Remembering,What is the purpose of a shear wall in a building?,Resist lateral forces,Support vertical loads,Enhance aesthetic appeal,Improve thermal efficiency,Resist lateral forces,Easy
+7,LO1,Remembering,What is the primary component of concrete?,Cement,Sand,Gravel,Water,Cement,Easy
+8,LO1,Remembering,What does the acronym BIM stand for in civil engineering?,Building Information Modeling,Basic Infrastructure Management,Bridge Inspection Method,Building Insulation Material,Building Information Modeling,Easy
+9,LO1,Understanding,Why is reinforced concrete used in construction?,It combines tensile and compressive strength,It is lightweight,It is cheaper than timber,It is fireproof only,It combines tensile and compressive strength,Medium
+10,LO1,Understanding,How does a shallow foundation differ from a deep foundation?,Transfers load to surface soil,Transfers load to deeper soil,Provides aesthetic support,Reduces construction time,Transfers load to surface soil,Medium
+11,LO1,Understanding,What is the significance of the modulus of elasticity in materials?,Measures material stiffness,Indicates material density,Determines thermal conductivity,Calculates corrosion resistance,Measures material stiffness,Medium
+12,LO1,Understanding,Why are expansion joints used in bridges?,To allow thermal movement,To increase load capacity,To reduce construction cost,To improve aesthetics,To allow thermal movement,Medium
+13,LO1,Understanding,What role does a geotechnical investigation play in construction?,Assesses soil properties,Designs building facades,Estimates construction costs,Plans electrical systems,Assesses soil properties,Medium
+14,LO1,Understanding,How does a cantilever beam function structurally?,Supported at one end only,Supported at both ends,Supported at multiple points,Hinged at the center,Supported at one end only,Medium
+15,LO1,Understanding,What is the purpose of a slump test in concrete construction?,Measures workability,Tests compressive strength,Determines curing time,Checks aggregate size,Measures workability,Medium
+16,LO1,Understanding,Why is a factor of safety used in structural design?,To account for uncertainties,To reduce material costs,To simplify calculations,To enhance aesthetics,To account for uncertainties,Medium
+17,LO1,Applying,Calculate the bending moment at the fixed end of a cantilever beam with a point load of 10 kN at the free end, length 2 m.,20 kNm,10 kNm,5 kNm,15 kNm,20 kNm,Hard
+18,LO1,Applying,A simply supported beam has a span of 6 m and a uniformly distributed load of 5 kN/m. What is the maximum bending moment?,22.5 kNm,15 kNm,30 kNm,10 kNm,22.5 kNm,Hard
+19,LO1,Applying,What is the shear force at the midpoint of a 4 m beam with a point load of 8 kN at 1 m from the left support?,4 kN,6 kN,2 kN,8 kN,4 kN,Hard
+20,LO1,Analyzing,Why might a shallow foundation fail on clay soil?,Excessive settlement,High compressive strength,Low water content,Excessive rigidity,Excessive settlement,Hard
+21,LO1,Analyzing,What failure mode is most likely in a slender column under compression?,Buckling,Shear failure,Tensile failure,Crushing,Buckling,Hard
+22,LO1,Analyzing,How does increasing rebar diameter affect a concrete beam's strength?,Increases tensile capacity,Reduces shear strength,Decreases ductility,Increases weight only,Increases tensile capacity,Hard
+23,LO1,Evaluating,Which foundation type is most suitable for a high-rise building on weak soil?,Pile foundation,Strip foundation,Pad foundation,Raft foundation,Pile foundation,Hard
+24,LO1,Evaluating,Which material property is critical for designing earthquake-resistant structures?,Ductility,Hardness,Density,Thermal conductivity,Ductility,Hard
+25,LO2,Remembering,What is the primary purpose of a hydrological study in civil engineering?,To analyze water flow and drainage,To design structural beams,To estimate construction costs,To select building materials,To analyze water flow and drainage,Easy
+26,LO2,Remembering,Which type of bridge is best suited for short spans?,Beam bridge,Arch bridge,Suspension bridge,Cable-stayed bridge,Beam bridge,Easy
+27,LO2,Remembering,What is the primary function of a culvert?,To allow water passage under roads,To support building foundations,To reduce traffic loads,To enhance road aesthetics,To allow water passage under roads,Easy
+28,LO2,Remembering,What does the term "grade" refer to in road design?,Slope of the road,Width of the road,Material of the road,Height of the road,Slope of the road,Easy
+29,LO2,Remembering,Which material is commonly used for asphalt pavements?,Bitumen,Concrete,Cement,Steel,Bitumen,Easy
+30,LO2,Remembering,What is the purpose of a traffic impact assessment?,To evaluate road usage effects,To design building facades,To test soil stability,To calculate structural loads,To evaluate road usage effects,Easy
+31,LO2,Remembering,What is a common type of flexible pavement?, implicate structure?,Asphalt,Concrete,Timber,Steel,Asphalt,Easy
+32,LO2,Remembering,What is the function of a weir in hydraulic engineering?,To control water flow,To support bridges,To reduce soil erosion,To increase road traction,To control water flow,Easy
+33,LO2,Understanding,Why is camber provided in road design?,To facilitate drainage,To increase load capacity,To improve visibility,To reduce noise,To facilitate drainage,Medium
+34,LO2,Understanding,How does a suspension bridge distribute its load?,Through cables to towers,Through beams to piers,Through arches to supports,Directly to the foundation,Through cables to towers,Medium
+35,LO2,Understanding,What is the purpose of a detention basin in urban planning?,To manage stormwater runoff,To store construction materials,To support road foundations,To reduce traffic congestion,To manage stormwater runoff,Medium
+36,LO2,Understanding,Why are guardrails used on highways?,To prevent vehicle runoff,To enhance aesthetics,To reduce noise pollution,To increase road width,To prevent vehicle runoff,Medium
+37,LO2,Understanding,What is the significance of the California Bearing Ratio (CBR) in road design?,Measures soil strength,Indicates pavement thickness,Determines traffic load,Tests asphalt quality,Measures soil strength,Medium
+38,LO2,Understanding,How does an arch bridge transfer loads?,Through compressive forces,Through tensile forces,Through shear forces,Through bending moments,Through compressive forces,Medium
+39,LO2,Understanding,Why is a permeable pavement used in urban areas?,To reduce runoff,To increase traction,To lower costs,To improve aesthetics,To reduce runoff,Medium
+40,LO2,Understanding,What is the role of a traffic signal timing plan?,To optimize vehicle flow,To reduce road width,To increase pavement strength,To enhance visibility,To optimize vehicle flow,Medium
+41,LO2,Applying,What is the design flow rate for a stormwater pipe with a 1% slope and Manning’s n of 0.013?,0.25 m³/s,0.50 m³/s,0.75 m³/s,1.00 m³/s,0.50 m³/s,Hard
+42,LO2,Applying,A 100 m long road has a 2% grade. What is the vertical elevation change?,2 m,4 m,6 m,8 m,2 m,Hard
+43,LO2,Applying,What is the minimum radius of a horizontal curve for a road with a design speed of 80 km/h?,250 m,300 m,350 m,400 m,300 m,Hard
+44,LO2,Analyzing,Why might a flexible pavement fail under heavy traffic?,Excessive deformation,Insufficient drainage,Low material strength,All of the above,All of the above,Hard
+45,LO2,Analyzing,What is a potential issue with a poorly designed culvert?,Flooding,Structural collapse,Traffic delays,Material corrosion,Flooding,Hard
+46,LO2,Analyzing,How does soil compaction affect pavement performance?,Increases stability,Reduces load capacity,Increases cracking,Decreases drainage,Increases stability,Hard
+47,LO2,Evaluating,Which bridge type is most cost-effective for a 50 m span?,Beam bridge,Arch bridge,Suspension bridge,Cable-stayed bridge,Beam bridge,Hard
+48,LO2,Evaluating,What is the best pavement type for heavy industrial traffic?,Rigid pavement,Flexible pavement,Composite pavement,Gravel pavement,Rigid pavement,Hard
+49,LO3,Remembering,What is the primary goal of structural analysis?,To determine load effects,To select materials,To estimate costs,To design aesthetics,To determine load effects,Easy
+50,LO3,Remembering,What is a truss in structural engineering?,A framework of triangles,A solid beam,A flexible cable,A hollow column,A framework of triangles,Easy
+51,LO3,Remembering,What is the unit of stress in the SI system?,Pascal,Tesla,Newton,Joule,Pascal,Easy
+52,LO3,Remembering,What does a moment diagram represent?,Distribution of moments,Shear forces,Deflections,Loads,Distribution of moments,Easy
+53,LO3,Remembering,What is the purpose of a load combination in design?,To account for multiple loads,To reduce material use,To simplify calculations,To improve aesthetics,To account for multiple loads,Easy
+54,LO3,Remembering,What is a common type of structural steel section?,I-beam,Flat plate,Round bar,Angle section,I-beam,Easy
+55,LO3,Remembering,What is the primary function of a column?,To resist compressive loads,To resist tensile loads,To provide lateral support,To enhance aesthetics,To resist compressive loads,Easy
+56,LO3,Remembering,What is the term for the maximum stress a material can withstand?,Yield strength,Ultimate strength,Compressive strength,Shear strength,Yield strength,Easy
+57,LO3,Understanding,Why is a moment of inertia important in beam design?,It affects deflection,It determines weight,It controls corrosion,It measures length,It affects deflection,Medium
+58,LO3,Understanding,How does a pinned support differ from a fixed support?,Allows rotation,Resists all movement,Allows vertical movement,Allows lateral movement,Allows rotation,Medium
+59,LO3,Understanding,What is the purpose of a structural load test?,To verify capacity,To check aesthetics,To measure weight,To assess cost,To verify capacity,Medium
+60,LO3,Understanding,Why is creep a concern in concrete structures?,It causes long-term deformation,It reduces strength,It increases weight,It affects color,It causes long-term deformation,Medium
+61,LO3,Understanding,What is the effect of torsion in a structural member?,Twisting,Compression,Tension,Bending,Twisting,Medium
+62,LO3,Understanding,How does a prestressed concrete beam work?,Pre-compressed to resist tension,Pre-tensioned to resist compression,Reinforced with steel only,Designed for aesthetics,Pre-compressed to resist tension,Medium
+63,LO3,Understanding,What is the significance of the Euler’s buckling formula?,Predicts column failure,Calculates beam deflection,Measures shear stress,Determines material strength,Predicts column failure,Medium
+64,LO3,Understanding,Why are lateral braces used in steel structures?,To prevent buckling,To reduce weight,To increase flexibility,To improve appearance,To prevent buckling,Medium
+65,LO3,Applying,What is the deflection of a 5 m simply supported beam with a 10 kN/m load, E=200 GPa, I=1x10^-4 m^4?,0.0052 m,0.0104 m,0.0156 m,0.0208 m,0.0052 m,Hard
+66,LO3,Applying,Calculate the axial stress in a 0.01 m² column under a 100 kN load.,10 MPa,5 MPa,15 MPa,20 MPa,10 MPa,Hard
+67,LO3,Applying,What is the shear stress in a 0.02 m² beam section with a 50 kN shear force?,2.5 MPa,1.5 MPa,3.5 MPa,4.5 MPa,2.5 MPa,Hard
+68,LO3,Analyzing,Why might a steel beam fail under dynamic loading?,Fatigue,Corrosion,Overweight,Shrinkage,Fatigue,Hard
+69,LO3,Analyzing,What is the effect of increasing a beam’s depth on its strength?,Increases bending resistance,Reduces shear capacity,Increases weight only,Decreases stiffness,Increases bending resistance,Hard
+70,LO3,Analyzing,How does soil-structure interaction affect foundation design?,Alters load distribution,Increases material cost,Reduces construction time,Improves aesthetics,Alters load distribution,Hard
+71,LO3,Evaluating,Which structural system is best for a 100 m tall building?,Braced frame,Moment frame,Shear wall,Truss system,Shear wall,Hard
+72,LO3,Evaluating,What is the most critical factor in designing a long-span roof?,Deflection,Weight,Color,Cost,Deflection,Hard
+73,LO4,Remembering,What is the primary purpose of construction management?,To ensure project efficiency,To design structures,To select materials,To conduct surveys,To ensure project efficiency,Easy
+74,LO4,Remembering,What is a Gantt chart used for in construction?,Project scheduling,Material testing,Structural analysis,Soil investigation,Project scheduling,Easy
+75,LO4,Remembering,What does CPM stand for in project management?,Critical Path Method,Cost Performance Model,Construction Process Management,Civil Project Metrics,Critical Path Method,Easy
+76,LO4,Remembering,What is the role of a quantity surveyor?,Estimate material quantities,Design structural systems,Manage traffic flow,Conduct soil tests,Estimate material quantities,Easy
+77,LO4,Remembering,What is a common construction safety standard?,OSHA,ISO,ASTM,AISC,OSHA,Easy
+78,LO4,Remembering,What is the purpose of a construction bid?,To propose project cost,To design the project,To test materials,To schedule workers,To propose project cost,Easy
+79,LO4,Remembering,What is a lien in construction projects?,A legal claim on property,A type of contract,A safety regulation,A design standard,A legal claim on property,Easy
+80,LO4,Remembering,What is the primary function of a project manager?,Oversee project execution,Design structural components,Test material strength,Survey the site,Oversee project execution,Easy
+81,LO4,Understanding,Why is a risk management plan important in construction?,To mitigate uncertainties,To reduce material costs,To improve aesthetics,To simplify designs,To mitigate uncertainties,Medium
+82,LO4,Understanding,How does a critical path affect project duration?,Determines shortest completion time,Increases material costs,Reduces worker efficiency,Alters design plans,Determines shortest completion time,Medium
+83,LO4,Understanding,What is the purpose of a quality control plan?,To ensure standards compliance,To reduce project costs,To speed up construction,To enhance aesthetics,To ensure standards compliance,Medium
+84,LO4,Understanding,Why is resource leveling used in construction scheduling?,To balance resource use,To increase project cost,To simplify designs,To improve safety,To balance resource use,Medium
+85,LO4,Understanding,What is the significance of a work breakdown structure (WBS)?,Divides project into tasks,Estimates material costs,Designs structural systems,Tests soil strength,Divides project into tasks,Medium
+86,LO4,Understanding,How does a change order affect a construction project?,Alters scope or cost,Improves material quality,Reduces worker hours,Enhances aesthetics,Alters scope or cost,Medium
+87,LO4,Understanding,Why is earned value management used?,To track project progress,To design structures,To test materials,To survey land,To track project progress,Medium
+88,LO4,Understanding,What is the role of a construction superintendent?,Supervise site operations,Design structural systems,Estimate project costs,Conduct soil tests,Supervise site operations,Medium
+89,LO4,Applying,What is the float time for a non-critical task with 5 days duration, starting day 10, finishing day 20?,5 days,10 days,15 days,0 days,5 days,Hard
+90,LO4,Applying,Calculate the cost overrun if the budget is $1M and actual cost is $1.2M.,$200,000,$100,000,$300,000,$400,000,$200,000,Hard
+91,LO4,Applying,What is the critical path duration for a project with tasks A(3 days), B(5 days, depends on A), C(2 days)?,8 days,5 days,3 days,10 days,8 days,Hard
+92,LO4,Analyzing,Why might a project delay occur despite adequate resources?,Poor scheduling,Excessive materials,Low worker skills,Overdesigned structures,Poor scheduling,Hard
+93,LO4,Analyzing,What is a common cause of construction disputes?,Scope changes,Material shortages,Worker inefficiency,Design simplicity,Scope changes,Hard
+94,LO4,Analyzing,How does weather impact construction schedules?,Delays critical tasks,Increases material costs,Improves worker morale,Reduces design time,Delays critical tasks,Hard
+95,LO4,Evaluating,Which scheduling method is best for complex construction projects?,CPM,Gantt chart,PERT,Linear scheduling,CPM,Hard
+96,LO4,Evaluating,What is the most critical factor in construction cost estimation?,Accuracy of quantities,Worker efficiency,Design complexity,Material availability,Accuracy of quantities,Hard
+97,LO5,Remembering,What is the primary purpose of environmental impact assessment in civil engineering?,To evaluate ecological effects,To design structures,To estimate costs,To select materials,To evaluate ecological effects,Easy
+98,LO5,Remembering,What is a common sustainable building material?,Recycled steel,Plastic,Timber,Aluminum,Recycled steel,Easy
+99,LO5,Remembering,What does LEED stand for in green building?,Leadership in Energy and Environmental Design,Low Emission Engineering Design,Lightweight Environmental Development,Local Energy Efficiency Directive,Leadership in Energy and Environmental Design,Easy
+100,LO5,Remembering,What is the purpose of a stormwater management plan?,To control runoff,To design roads,To reduce costs,To improve aesthetics,To control runoff,Easy
+101,LO5,Remembering,What is a key feature of a green roof?,Vegetation layer,Concrete surface,Steel reinforcement,Asphalt coating,Vegetation layer,Easy
+102,LO5,Remembering,What is the primary goal of sustainable construction?,Minimize environmental impact,Maximize building height,Reduce construction time,Increase material use,Minimize environmental impact,Easy
+103,LO5,Remembering,What is a common renewable energy source in buildings?,Solar power,Nuclear power,Coal power,Gas power,Solar power,Easy
+104,LO5,Remembering,What does the term "carbon footprint" refer to?,Greenhouse gas emissions,Building weight,Construction cost,Material strength,Greenhouse gas emissions,Easy
+105,LO5,Understanding,Why is thermal insulation important in sustainable buildings?,Reduces energy consumption,Increases structural strength,Improves aesthetics,Reduces construction time,Reduces energy consumption,Medium
+106,LO5,Understanding,How does a rain garden contribute to sustainability?,Manages stormwater,Increases building height,Reduces material costs,Enhances structural strength,Manages stormwater,Medium
+107,LO5,Understanding,What is the benefit of using low-VOC materials?,Reduces air pollution,Increases strength,Lowers costs,Improves appearance,Reduces air pollution,Medium
+108,LO5,Understanding,Why is daylighting used in building design?,To reduce lighting energy,To increase heat,To simplify construction,To enhance colors,To reduce lighting energy,Medium
+109,LO5,Understanding,What is the purpose of a life cycle assessment in construction?,Evaluates environmental impact,Calculates structural load,Estimates worker hours,Designs aesthetic features,Evaluates environmental impact,Medium
+110,LO5,Understanding,How does a passive house design save energy?,Minimizes heat loss,Maximizes material use,Reduces construction time,Increases lighting,Minimizes heat loss,Medium
+111,LO5,Understanding,Why is water recycling used in sustainable construction?,Conserves water resources,Increases structural strength,Reduces project costs,Improves aesthetics,Conserves water resources,Medium
+112,LO5,Understanding,What is the role of a green building certification?,Validates sustainability,Ensures structural safety,Reduces material use,Simplifies design,Validates sustainability,Medium
+113,LO5,Applying,What is the energy savings from a 20% increase in insulation R-value for a 100 m² wall?,20%,10%,30%,40%,20%,Hard
+114,LO5,Applying,Calculate the water savings from a 1.6 gpf toilet vs. a 3.5 gpf toilet for 1000 flushes.,1900 gallons,1000 gallons,2500 gallons,3000 gallons,1900 gallons,Hard
+115,LO5,Applying,What is the carbon emission reduction from using 50% recycled steel in a 100-ton structure?,10 tons CO2,5 tons CO2,15 tons CO2,20 tons CO2,10 tons CO2,Hard
+116,LO5,Analyzing,Why might a green roof fail to reduce runoff effectively?,Poor drainage design,Excessive weight,Low material strength,High cost,Poor drainage design,Hard
+117,LO5,Analyzing,What is a potential drawback of solar panels on buildings?,High initial cost,Low durability,Excessive weight,Poor aesthetics,High initial cost,Hard
+118,LO5,Analyzing,How does urban heat island effect impact building energy use?,Increases cooling demand,Reduces heating demand,Increases material use,Decreases lighting needs,Increases cooling demand,Hard
+119,LO5,Evaluating,Which sustainable feature is most effective for reducing energy in a hot climate?,High insulation,Reflective roofing,Solar panels,Green walls,Reflective roofing,Hard
+120,LO5,Evaluating,What is the best strategy for minimizing construction waste?,Material recycling,Fast construction,Minimal design,Heavy machinery,Material recycling,Hard

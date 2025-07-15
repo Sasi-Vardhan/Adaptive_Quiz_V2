@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Your MBA - Leadership & Strategy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=stylesheet" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #f5f7fa; /* Light gray for professional backdrop */
+            --secondary-color: #e6f0fa; /* Soft blue for corporate trust */
+            --accent-strategy: #1e3a8a; /* Deep blue for strategy */
+            --accent-finance: #f59e0b; /* Gold for finance and success */
+            --accent-leadership: #3b82f6; /* Bright blue for leadership */
+            --accent-data: #6b7280; /* Gray for data analytics */
+            --accent-growth: #10b981; /* Green for growth and innovation */
+            --text-dark: #0f172a;
+            --text-medium: #334155;
+            --text-light: #475569;
+            --text-lightest: #64748b;
+            --pure-white: #ffffff;
+            --gradient-corporate: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #f59e0b 100%);
+            --gradient-strategy: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            --gradient-finance: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            --shadow-soft: 0 10px 40px rgba(30, 58, 138, 0.08);
+            --shadow-medium: 0 20px 60px rgba(30, 58, 138, 0.12);
+            --shadow-strong: 0 30px 80px rgba(30, 58, 138, 0.16);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--pure-white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: var(--pure-white);
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: var(--gradient-corporate);
+            border-radius: 50%;
+            opacity: 0.3;
+            filter: blur(50px);
+            animation: data-pulse 14s infinite ease-in-out;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            left: -15%;
+            width: 500px;
+            height: 500px;
+            background: var(--gradient-strategy);
+            border-radius: 50%;
+            opacity: 0.4;
+            filter: blur(40px);
+            animation: data-pulse 16s infinite ease-in-out reverse;
+        }
+
+        .data-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .data-particle {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: var(--accent-strategy);
+            border-radius: 50%;
+            animation: data-flow 10s infinite ease-in-out;
+            box-shadow: 0 0 12px rgba(30, 58, 138, 0.5);
+            opacity: 0.7;
+        }
+
+        .data-particle:nth-child(1) {
+            top: 15%;
+            left: 20%;
+            background: var(--accent-strategy);
+            animation-delay: 0s;
+        }
+
+        .data-particle:nth-child(2) {
+            top: 60%;
+            right: 30%;
+            background: var(--accent-finance);
+            animation-delay: -2s;
+        }
+
+        .data-particle:nth-child(3) {
+            bottom: 25%;
+            left: 65%;
+            background: var(--accent-leadership);
+            animation-delay: -4s;
+        }
+
+        .data-particle:nth-child(4) {
+            top: 35%;
+            right: 45%;
+            background: var(--accent-data);
+            animation-delay: -6s;
+        }
+
+        .data-particle:nth-child(5) {
+            top: 20%;
+            left: 50%;
+            background: var(--accent-growth);
+            animation-delay: -8s;
+        }
+
+        @keyframes data-pulse {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(90deg); }
+        }
+
+        @keyframes data-flow {
+            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.7; }
+            25% { transform: translate(15px, -20px) scale(1.2); opacity: 1; }
+            50% { transform: translate(-10px, 25px) scale(0.9); opacity: 0.8; }
+            75% { transform: translate(20px, -15px) scale(1.1); opacity: 1; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            animation: fadeInUp 1.2s ease-out;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, var(--accent-strategy), var(--accent-finance));
+            color: var(--pure-white);
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 6vw, 5rem);
+            font-weight: 600;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 2.5vw, 1.4rem);
+            font-weight: 400;
+            color: var(--text-medium);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            padding: 18px 40px;
+            background: var(--gradient-corporate);
+            color: var(--pure-white);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            box-shadow: var(--shadow-medium);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            margin-right: 1rem;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            padding: 18px 40px;
+            background: transparent;
+            color: var(--text-medium);
+            text-decoration: none;
+            border: 2px solid var(--secondary-color);
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            border-color: var(--accent-strategy);
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 120px 0;
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s ease-out;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: var(--gradient-corporate);
+            color: var(--pure-white);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Importance Section */
+        .importance {
+            background: var(--primary-color);
+        }
+
+        .importance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .importance-card {
+            background: var(--pure-white);
+            padding: 3rem 2.5rem;
+            border-radius: 24px;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.4s ease;
+            position: relative;
+            border: 1px solid rgba(30, 58, 138, 0.1);
+        }
+
+        .importance-card:nth-child(1) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #e6f0fa 100%);
+        }
+
+        .importance-card:nth-child(2) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #fef3c7 100%);
+        }
+
+        .importance-card:nth-child(3) {
+            background: linear-gradient(135deg, var(--pure-white) 0%, #e0f2fe 100%);
+        }
+
+        .importance-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .card-icon {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 2rem;
+            background: var(--pure-white);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .card-description {
+            color: var(--text-medium);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        /* Learning Section */
+        .learning {
+            background: var(--pure-white);
+        }
+
+        .learning-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+            margin-top: 4rem;
+        }
+
+        .learning-text h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .learning-text p {
+            font-size: 1.1rem;
+            color: var(--text-medium);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .learning-visual {
+            position: relative;
+            height: 500px;
+            background: var(--gradient-corporate);
+            border-radius: 32px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .learning-visual::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 180px;
+            height: 180px;
+            background: var(--pure-white);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.8;
+            animation: chart-spin 6s infinite linear;
+        }
+
+        .learning-visual::after {
+            content: '📈';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+            z-index: 2;
+            animation: chart-spin 6s infinite linear, data-glow 2s infinite;
+            color: var(--accent-finance);
+        }
+
+        @keyframes chart-spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); filter: drop-shadow(0 0 10px #1e3a8a); }
+            50% { transform: translate(-50%, -50%) rotate(180deg) scale(1.05); filter: drop-shadow(0 0 15px #f59e0b); }
+            100% { transform: translate(-50%, -50%) rotate(360deg) scale(1); filter: drop-shadow(0 0 10px #1e3a8a); }
+        }
+
+        @keyframes data-glow {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--primary-color);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-strategy);
+        }
+
+        .feature-item:hover {
+            background: var(--secondary-color);
+            transform: translateX(8px);
+            border-left-color: var(--accent-finance);
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--pure-white);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .feature-text {
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--secondary-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 3rem 2rem;
+            background: var(--pure-white);
+            border-radius: 24px;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--accent-strategy);
+        }
+
+        .stat-item:nth-child(2) {
+            border-top-color: var(--accent-finance);
+        }
+
+        .stat-item:nth-child(3) {
+            border-top-color: var(--accent-leadership);
+        }
+
+        .stat-item:nth-child(4) {
+            border-top-color: var(--accent-data);
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background: var(--pure-white);
+            text-align: center;
+        }
+
+        .cta-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 3rem;
+            background: var(--gradient-corporate);
+            border-radius: 32px;
+            box-shadow: var(--shadow-medium);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: data-wave 5s infinite;
+        }
+
+        @keyframes data-wave {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.1; }
+            50% { transform: translate(-50%, -50%) scale(1.15); opacity: 0.3; }
+        }
+
+        .cta-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: var(--pure-white);
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-container p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-final {
+            display: inline-block;
+            padding: 20px 50px;
+            background: var(--pure-white);
+            color: var(--accent-strategy);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-medium);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .cta-final:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-strong);
+            color: var(--accent-finance);
+        }
+
+        .cta-final::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(30, 58, 138, 0.1), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-final:hover::before {
+            left: 100%;
+        }
+
+        /* Data Flow Animation */
+        .data-flow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .data-particle-flow {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-data);
+            border-radius: 50%;
+            animation: data-stream 5s infinite ease-in-out;
+            opacity: 0.6;
+        }
+
+        @keyframes data-stream {
+            0% { transform: translateX(0) scale(0.8); opacity: 0.6; }
+            50% { transform: translateX(30px) scale(1.3); opacity: 1; }
+            100% { transform: translateX(0) scale(0.8); opacity: 0.6; }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .learning-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .importance-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .section {
+                padding: 80px 0;
+            }
+
+            .cta-primary, .cta-secondary {
+                display: block;
+                margin: 0.5rem 0;
+                text-align: center;
+            }
+
+            .cta-container {
+                padding: 3rem 2rem;
+                margin: 0 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 16px;
+            }
+
+            .importance-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .importance-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="data-particles">
+            <div class="data-particle"></div>
+            <div class="data-particle"></div>
+            <div class="data-particle"></div>
+            <div class="data-particle"></div>
+            <div class="data-particle"></div>
+        </div>
+        <div class="data-flow">
+            <div class="data-particle-flow" style="top: 20%; left: 15%; animation-delay: 0s;"></div>
+            <div class="data-particle-flow" style="top: 50%; left: 35%; animation-delay: 1s;"></div>
+            <div class="data-particle-flow" style="top: 70%; left: 60%; animation-delay: 2s;"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">📈 Lead with Impact</div>
+                <h1>Master Your MBA with Strategic Learning</h1>
+                <p class="hero-subtitle">Elevate your career with a comprehensive MBA education, mastering leadership, finance, and strategy through adaptive, real-world-focused learning paths.</p>
+                <div style="margin-top: 2rem;">
+                    <a  href="{{ url_for('LO.Learning') }}" class="cta-primary">Begin Your Journey</a>
+                    <a href="#features" class="cta-secondary">Explore Features</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section class="section importance" id="learn-more">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Why Master This</div>
+                <h2 class="section-title">Shape the Future of Business</h2>
+                <p class="section-subtitle">An MBA equips you with the skills to lead organizations, drive innovation, and navigate complex global markets with confidence.</p>
+            </div>
+            
+            <div class="importance-grid">
+                <div class="importance-card">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title">Strategic Leader</h3>
+                    <p class="card-description">Develop leadership skills to inspire teams, make strategic decisions, and drive organizational success in dynamic markets.</p>
+                </div>
+                
+                <div class="importance-card">
+                    <div class="card-icon">💰</div>
+                    <h3 class="card-title">Financial Expert</h3>
+                    <p class="card-description">Master financial analysis, investment strategies, and budgeting to optimize business growth and profitability.</p>
+                </div>
+                
+                <div class="importance-card">
+                    <div class="card-icon">📊</div>
+                    <h3 class="card-title">Data-Driven Innovator</h3>
+                    <p class="card-description">Leverage data analytics and market insights to innovate business models and stay ahead in competitive industries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section class="section learning" id="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Learning Experience</div>
+                <h2 class="section-title">From Strategy to Success</h2>
+                <p class="section-subtitle">Our program transforms complex business concepts into actionable skills through case studies, simulations, and strategic projects.</p>
+            </div>
+            
+            <div class="learning-content">
+                <div class="learning-text">
+                    <h3>Practical Expertise</h3>
+                    <p>Master business strategy, financial modeling, and leadership through hands-on case studies and real-world applications, preparing you for global business challenges.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">📈</div>
+                            <div class="feature-text">Interactive business strategy simulations</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">💹</div>
+                            <div class="feature-text">Financial modeling and investment analysis</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">👥</div>
+                            <div class="feature-text">Leadership and team management workshops</div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🌐</div>
+                            <div class="feature-text">Global market analysis and case studies</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="learning-visual"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Impact Metrics</div>
+                <h2 class="section-title">Business Excellence</h2>
+                <p class="section-subtitle">Join thousands of MBA students and professionals who have transformed their careers through our innovative learning platform.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">92%</span>
+                    <div class="stat-label">Career Advancement</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">85%</span>
+                    <div class="stat-label">Skill Mastery</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">60+</span>
+                    <div class="stat-label">Case Studies</div>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">7x</span>
+                    <div class="stat-label">Networking Growth</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section final-cta">
+        <div class="container">
+            <div class="cta-container">
+                <h2>Ready to Lead the Future?</h2>
+                <p>Master business fundamentals through personalized learning that adapts to your goals. Build the foundation for a transformative career in leadership and strategy.</p>
+                <a  href="{{ url_for('LO.Learning') }}" class="cta-final">Start Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -80px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Counter animation for stats
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 60;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                
+                const suffix = element.textContent.replace(/[\d]/g, '').trim();
+                element.textContent = Math.floor(current) + suffix;
+            }, 30);
+        }
+
+        // Animate counters when stats section is visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const text = stat.textContent.replace(/[^\d]/g, '');
+                        const targetValue = parseInt(text) || parseFloat(text);
+                        if (!isNaN(targetValue)) {
+                            animateCounter(stat, targetValue);
+                        }
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        document.querySelectorAll('.stats').forEach(section => {
+            statsObserver.observe(section);
+        });
+
+        // Handle dynamic data particle animations
+        function createDataParticle() {
+            const dataContainer = document.querySelector('.data-particles');
+            const particle = document.createElement('div');
+            particle.classList.add('data-particle');
+            const topPosition = Math.random() * 80 + 10; // Between 10% and 90%
+            const leftPosition = Math.random() * 80 + 10;
+            const delay = Math.random() * 6;
+            particle.style.top = `${topPosition}%`;
+            particle.style.left = `${leftPosition}%`;
+            particle.style.animationDelay = `${delay}s`;
+            particle.style.background = [
+                'var(--accent-strategy)',
+                'var(--accent-finance)',
+                'var(--accent-leadership)',
+                'var(--accent-data)',
+                'var(--accent-growth)'
+            ][Math.floor(Math.random() * 5)];
+            dataContainer.appendChild(particle);
+
+            // Remove particle after animation completes
+            setTimeout(() => {
+                particle.remove();
+            }, 10000);
+        }
+
+        // Handle dynamic data flow particle animations
+        function createDataFlowParticle() {
+            const dataFlowContainer = document.querySelector('.data-flow');
+            const particle = document.createElement('div');
+            particle.classList.add('data-particle-flow');
+            const topPosition = Math.random() * 80 + 10;
+            const leftPosition = Math.random() * 80 + 10;
+            const delay = Math.random() * 4;
+            particle.style.top = `${topPosition}%`;
+            particle.style.left = `${leftPosition}%`;
+            particle.style.animationDelay = `${delay}s`;
+            dataFlowContainer.appendChild(particle);
+
+            // Remove particle after animation completes
+            setTimeout(() => {
+                particle.remove();
+            }, 5000);
+        }
+
+        // Periodically create new particles
+        setInterval(createDataParticle, 600);
+        setInterval(createDataFlowParticle, 800);
+
+        // Lazy loading for images
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('img');
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+                images.forEach(img => imageObserver.observe(img));
+            }
+        });
+
+        // Accessibility: Handle keyboard navigation for CTAs
+        document.querySelectorAll('.cta-primary, .cta-secondary, .cta-final').forEach(button => {
+            button.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    button.click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

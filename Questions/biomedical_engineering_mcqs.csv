@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Remembering,What is the primary function of a biomaterial in biomedical engineering?,To replace or augment biological tissues,To conduct electrical signals,To analyze genetic data,To measure blood pressure,To replace or augment biological tissues,Easy
+2,LO1,Remembering,Which material is commonly used as a biocompatible implant?,Titanium,Glass,Wood,Plastic,Titanium,Easy
+3,LO1,Remembering,What is the main purpose of biomechanics in biomedical engineering?,Study of forces on biological systems,Development of synthetic drugs,Analysis of chemical reactions,Design of electrical circuits,Study of forces on biological systems,Easy
+4,LO1,Remembering,What does an electrocardiogram (ECG) primarily measure?,Heart electrical activity,Brain wave patterns,Blood glucose levels,Muscle contraction strength,Heart electrical activity,Easy
+5,LO1,Remembering,What is the role of a stent in biomedical engineering?,Open blocked blood vessels,Measure body temperature,Deliver drugs locally,Monitor brain activity,Open blocked blood vessels,Easy
+6,LO1,Remembering,Which imaging technique uses X-rays to visualize bones?,CT scan,Ultrasound,MRI,EEG,CT scan,Easy
+7,LO1,Remembering,What is tissue engineering primarily concerned with?,Creating functional tissue replacements,Designing prosthetic limbs,Analyzing DNA sequences,Developing diagnostic software,Creating functional tissue replacements,Easy
+8,LO1,Remembering,What is a pacemaker used for?,Regulating heart rhythm,Monitoring blood pressure,Stimulating muscle growth,Measuring oxygen levels,Regulating heart rhythm,Easy
+9,LO1,Understanding,Why is biocompatibility crucial for biomaterials?,Ensures no adverse reactions in the body,Reduces manufacturing costs,Increases electrical conductivity,Simplifies surgical procedures,Ensures no adverse reactions in the body,Medium
+10,LO1,Understanding,How does an MRI differ from a CT scan?,Uses magnetic fields instead of X-rays,Uses ultrasound waves,Measures electrical signals,Requires invasive probes,Uses magnetic fields instead of X-rays,Medium
+11,LO1,Understanding,What role does collagen play in tissue engineering?,Provides structural support in scaffolds,Acts as an electrical conductor,Serves as a drug delivery agent,Measures biomechanical stress,Provides structural support in scaffolds,Medium
+12,LO1,Understanding,Why are hydrogels used in biomedical applications?,High water content mimics tissues,High electrical resistance,Low cost production,Strong magnetic properties,High water content mimics tissues,Medium
+13,LO1,Understanding,What is the primary advantage of using titanium in implants?,Corrosion resistance and strength,High flexibility,Low density,Strong magnetic response,Corrosion resistance and strength,Medium
+14,LO1,Understanding,How does a biosignal like an EMG contribute to diagnostics?,Measures muscle electrical activity,Tracks blood flow,Analyzes chemical composition,Detects bone fractures,Measures muscle electrical activity,Medium
+15,LO1,Understanding,What is the significance of porosity in biomaterials?,Allows cell growth and nutrient diffusion,Increases material density,Reduces thermal conductivity,Enhances electrical insulation,Allows cell growth and nutrient diffusion,Medium
+16,LO1,Understanding,Why are ceramics used in some orthopedic implants?,High wear resistance,High electrical conductivity,Low cost,Flexible structure,High wear resistance,Medium
+17,LO1,Applying,How would you select a biomaterial for a hip implant?,Prioritize biocompatibility and durability,Choose based on color,Select for electrical conductivity,Favor low-cost materials,Prioritize biocompatibility and durability,Hard
+18,LO1,Applying,What design consideration is critical for a prosthetic heart valve?,Mimicking natural valve hemodynamics,Maximizing weight,Increasing electrical resistance,Reducing size only,Mimicking natural valve hemodynamics,Hard
+19,LO1,Applying,How would a biomedical engineer use biomechanics to design a knee brace?,Analyze joint forces and motion,Measure brain activity,Assess chemical stability,Optimize thermal properties,Analyze joint forces and motion,Hard
+20,LO1,Analyzing,Why might a polymer degrade in a biological environment?,Due to enzymatic activity,Because of high conductivity,From excessive rigidity,Due to low temperature,Due to enzymatic activity,Hard
+21,LO1,Analyzing,What challenge arises when integrating biosensors with tissue?,Ensuring biocompatibility,Maximizing weight,Increasing opacity,Reducing flexibility,Ensuring biocompatibility,Hard
+22,LO1,Evaluating,Which imaging modality is best for soft tissue visualization?,MRI,CT scan,Ultrasound,X-ray,MRI,Hard
+23,LO1,Analyzing,Why might a stent fail in a patient?,Due to thrombus formation,Because of high flexibility,From excessive weight,Due to electrical interference,Due to thrombus formation,Hard
+24,LO1,Evaluating,Which material property is most critical for a long-term implant?,Biocompatibility,High thermal conductivity,Low density,Magnetic susceptibility,Biocompatibility,Hard
+25,LO2,Remembering,What is the primary goal of medical imaging in biomedical engineering?,Visualize internal structures,Regulate heart rate,Deliver drugs,Analyze genetic code,Visualize internal structures,Easy
+26,LO2,Remembering,Which device measures blood oxygen saturation?,Pulse oximeter,ECG monitor,MRI scanner,Defibrillator,Pulse oximeter,Easy
+27,LO2,Remembering,What does an EEG primarily detect?,Brain electrical activity,Heart rate,Blood pressure,Muscle strength,Brain electrical activity,Easy
+28,LO2,Remembering,What is the function of an insulin pump?,Deliver insulin automatically,Measure blood glucose,Stimulate nerve growth,Monitor heart rhythm,Deliver insulin automatically,Easy
+29,LO2,Remembering,Which imaging technique uses sound waves?,Ultrasound,CT scan,MRI,PET scan,Ultrasound,Easy
+30,LO2,Remembering,What is a common application of biosensors?,Detecting glucose levels,Imaging bones,Stimulating muscles,Regulating temperature,Detecting glucose levels,Easy
+31,LO2,Remembering,What does a defibrillator do?,Restores heart rhythm,Measures blood pressure,Images soft tissues,Analyzes DNA,Restores heart rhythm,Easy
+32,LO2,Remembering,What is the purpose of a wearable fitness tracker?,Monitor physiological signals,Replace damaged tissues,Analyze genetic data,Perform surgery,Monitor physiological signals,Easy
+33,LO2,Understanding,Why is signal processing critical in ECG analysis?,To filter noise and detect patterns,To increase signal strength,To reduce device size,To improve material durability,To filter noise and detect patterns,Medium
+34,LO2,Understanding,How does a pulse oximeter measure oxygen saturation?,By analyzing light absorption,By measuring electrical signals,By detecting temperature changes,By analyzing tissue density,By analyzing light absorption,Medium
+35,LO2,Understanding,What is the advantage of using PET scans over CT scans?,Detects metabolic activity,Lower cost,Higher resolution,Faster imaging,Detects metabolic activity,Medium
+36,LO2,Understanding,Why are wearable sensors useful in healthcare?,Enable continuous monitoring,Increase surgical precision,Reduce material costs,Enhance imaging quality,Enable continuous monitoring,Medium
+37,LO2,Understanding,How does an EEG differ from an EMG?,Measures brain vs. muscle activity,Uses X-rays vs. ultrasound,Detects temperature vs. pressure,Analyzes DNA vs. proteins,Measures brain vs. muscle activity,Medium
+38,LO2,Understanding,What role does calibration play in medical devices?,Ensures measurement accuracy,Increases device weight,Reduces power consumption,Enhances aesthetic design,Ensures measurement accuracy,Medium
+39,LO2,Understanding,Why is ultrasound preferred for fetal imaging?,Non-ionizing and safe,High magnetic fields,Low cost,Invasive procedure,Non-ionizing and safe,Medium
+40,LO2,Understanding,What is a key challenge in designing wearable biosensors?,Miniaturization and comfort,Larger size,High cost only,Low resolution,Miniaturization and comfort,Medium
+41,LO2,Applying,How would you design a biosensor for glucose monitoring?,Use enzyme-based detection,Incorporate X-ray imaging,Apply thermal sensors,Use magnetic resonance,Use enzyme-based detection,Hard
+42,LO2,Applying,What is a critical design factor for a wearable heart monitor?,Low power consumption,High weight,Large size,Low resolution,Low power consumption,Hard
+43,LO2,Applying,How would you improve the accuracy of an EEG device?,Enhance electrode sensitivity,Increase device weight,Reduce signal frequency,Use larger sensors,Enhance electrode sensitivity,Hard
+44,LO2,Analyzing,Why might a pulse oximeter give inaccurate readings?,Due to motion artifacts,Because of high resolution,From excessive weight,Due to low battery,Due to motion artifacts,Hard
+45,LO2,Analyzing,What challenge arises in integrating IoT with medical devices?,Ensuring data security,Increasing device size,Reducing imaging quality,Lowering material strength,Ensuring data security,Hard
+46,LO2,Evaluating,Which imaging technique is best for detecting brain tumors?,MRI,Ultrasound,ECG,X-ray,MRI,Hard
+47,LO2,Analyzing,Why might a defibrillator fail to restore heart rhythm?,Inadequate energy delivery,Excessive weight,Low resolution,High magnetic interference,Inadequate energy delivery,Hard
+48,LO2,Evaluating,Which sensor is most suitable for continuous blood pressure monitoring?,Cuffless optical sensor,ECG electrode,X-ray detector,Ultrasound probe,Cuffless optical sensor,Hard
+49,LO3,Remembering,What is the primary goal of tissue engineering?,Regenerate functional tissues,Design electrical circuits,Analyze blood flow,Measure brain signals,Regenerate functional tissues,Easy
+50,LO3,Remembering,What is a common scaffold material in tissue engineering?,Collagen,Steel,Glass,Copper,Collagen,Easy
+51,LO3,Remembering,What does a bioreactor do in tissue engineering?,Supports cell growth,Images tissues,Delivers drugs,Monitors heart rate,Supports cell growth,Easy
+52,LO3,Remembering,What is the role of stem cells in tissue engineering?,Differentiate into specific tissues,Conduct electrical signals,Analyze genetic data,Measure mechanical stress,Differentiate into specific tissues,Easy
+53,LO3,Remembering,What is a key application of 3D bioprinting?,Creating tissue constructs,Monitoring blood pressure,Imaging bones,Designing circuits,Creating tissue constructs,Easy
+54,LO3,Remembering,What is the purpose of growth factors in tissue engineering?,Stimulate cell proliferation,Increase material strength,Reduce electrical noise,Enhance imaging quality,Stimulate cell proliferation,Easy
+55,LO3,Remembering,What does decellularization achieve in tissue engineering?,Removes cells from tissue matrix,Increases tissue density,Measures biomechanical forces,Analyzes chemical composition,Removes cells from tissue matrix,Easy
+56,LO3,Remembering,What is a common use of hydrogels in tissue engineering?,Mimic extracellular matrix,Conduct electrical signals,Reduce material cost,Enhance imaging resolution,Mimic extracellular matrix,Easy
+57,LO3,Understanding,Why is porosity important in tissue engineering scaffolds?,Facilitates cell infiltration,Increases electrical conductivity,Reduces scaffold weight,Enhances thermal stability,Facilitates cell infiltration,Medium
+58,LO3,Understanding,How do bioreactors enhance tissue engineering?,Provide controlled growth conditions,Increase imaging resolution,Reduce material costs,Measure electrical signals,Provide controlled growth conditions,Medium
+59,LO3,Understanding,Why are stem cells critical in regenerative medicine?,Can differentiate into multiple cell types,High electrical conductivity,Low cost,Strong magnetic properties,Can differentiate into multiple cell types,Medium
+60,LO3,Understanding,What is the advantage of 3D bioprinting over traditional methods?,Precise cell placement,Lower resolution,Higher cost,Reduced flexibility,Precise cell placement,Medium
+61,LO3,Understanding,Why is mechanical stimulation used in tissue engineering?,Mimics physiological forces,Increases scaffold density,Reduces cell viability,Enhances electrical signals,Mimics physiological forces,Medium
+62,LO3,Understanding,How does decellularization benefit tissue engineering?,Preserves natural matrix structure,Increases tissue opacity,Reduces biomechanical strength,Enhances signal detection,Preserves natural matrix structure,Medium
+63,LO3,Understanding,What is the role of biomaterials in tissue scaffolds?,Support cell growth,Increase electrical resistance,Reduce imaging quality,Lower thermal conductivity,Support cell growth,Medium
+64,LO3,Understanding,Why are hydrogels preferred for soft tissue engineering?,Mimic tissue elasticity,High rigidity,Low cost,Strong conductivity,Mimic tissue elasticity,Medium
+65,LO3,Applying,How would you design a scaffold for bone tissue engineering?,Use high-strength porous ceramics,Incorporate flexible polymers,Apply low-density metals,Use non-porous materials,Use high-strength porous ceramics,Hard
+66,LO3,Applying,What factor is critical for a cardiac tissue scaffold?,Mimicking heart elasticity,Maximizing rigidity,Reducing cell viability,Increasing electrical noise,Mimicking heart elasticity,Hard
+67,LO3,Applying,How would you optimize a bioreactor for cartilage growth?,Control mechanical loading,Increase temperature,Reduce nutrient supply,Enhance electrical signals,Control mechanical loading,Hard
+68,LO3,Analyzing,Why might a tissue scaffold fail in vivo?,Due to immune rejection,Because of high conductivity,From excessive weight,Due to low resolution,Due to immune rejection,Hard
+69,LO3,Analyzing,What challenge arises in 3D bioprinting complex tissues?,Achieving vascularization,Reducing material strength,Increasing print speed,Lowering cell density,Achieving vascularization,Hard
+70,LO3,Evaluating,Which scaffold material is best for soft tissue regeneration?,Hydrogel,Steel,Titanium,Glass,Hydrogel,Hard
+71,LO3,Analyzing,Why is cell alignment critical in muscle tissue engineering?,Mimics natural muscle structure,Increases electrical noise,Reduces scaffold porosity,Enhances imaging quality,Mimics natural muscle structure,Hard
+72,LO3,Evaluating,Which bioreactor parameter is most critical for bone tissue?,Mechanical stress,High temperature,Low oxygen levels,Electrical stimulation,Mechanical stress,Hard
+73,LO4,Remembering,What is the primary function of a prosthetic limb?,Restore mobility,Measure blood pressure,Analyze genetic data,Monitor brain activity,Restore mobility,Easy
+74,LO4,Remembering,What is a cochlear implant used for?,Restoring hearing,Regulating heart rate,Imaging tissues,Delivering drugs,Restoring hearing,Easy
+75,LO4,Remembering,What does a ventricular assist device (VAD) do?,Supports heart pumping,Monitors glucose levels,Images bones,Stimulates nerve growth,Supports heart pumping,Easy
+76,LO4,Remembering,What is the purpose of an artificial pancreas?,Regulates blood glucose,Measures brain activity,Supports bone growth,Monitors temperature,Regulates blood glucose,Easy
+77,LO4,Remembering,What is a common material for prosthetic joints?,Ceramic,Wood,Glass,Fabric,Ceramic,Easy
+78,LO4,Remembering,What does a neurostimulator primarily do?,Modulates nerve signals,Images soft tissues,Delivers insulin,Measures blood flow,Modulates nerve signals,Easy
+79,LO4,Remembering,What is the role of a dialysis machine?,Filters blood,Regulates heart rhythm,Analyzes DNA,Monitors oxygen levels,Filters blood,Easy
+80,LO4,Remembering,What is a key feature of a modern prosthetic limb?,Lightweight materials,Heavy weight,Low durability,High cost only,Lightweight materials,Easy
+81,LO4,Understanding,Why is ergonomics important in prosthetic design?,Ensures user comfort,Increases device weight,Reduces signal accuracy,Enhances imaging quality,Ensures user comfort,Medium
+82,LO4,Understanding,How does a cochlear implant restore hearing?,Stimulates auditory nerve,Measures brain waves,Increases blood flow,Analyzes tissue density,Stimulates auditory nerve,Medium
+83,LO4,Understanding,What is the advantage of using titanium in prosthetic joints?,High strength-to-weight ratio,High flexibility,Low cost,Strong magnetic properties,High strength-to-weight ratio,Medium
+84,LO4,Understanding,Why are sensors integrated into modern prosthetics?,Enable responsive movement,Reduce material strength,Increase device weight,Lower imaging quality,Enable responsive movement,Medium
+85,LO4,Understanding,How does a VAD differ from a pacemaker?,Assists heart pumping vs. rhythm,Uses X-rays vs. ultrasound,Measures glucose vs. pressure,Analyzes DNA vs. proteins,Assists heart pumping vs. rhythm,Medium
+86,LO4,Understanding,What is the role of feedback systems in neurostimulators?,Adjust stimulation levels,Increase device size,Reduce material durability,Enhance thermal properties,Adjust stimulation levels,Medium
+87,LO4,Understanding,Why is biocompatibility critical for prosthetic implants?,Prevents tissue rejection,Increases electrical noise,Reduces device weight,Enhances imaging resolution,Prevents tissue rejection,Medium
+88,LO4,Understanding,What is a key challenge in designing artificial organs?,Mimicking biological function,Reducing production cost,Increasing device size,Lowering signal strength,Mimicking biological function,Medium
+89,LO4,Applying,How would you design a prosthetic arm for daily use?,Incorporate lightweight sensors,Use heavy materials,Reduce durability,Increase complexity only,Incorporate lightweight sensors,Hard
+90,LO4,Applying,What factor is critical for a cochlear implant design?,Precise nerve stimulation,High weight,Low resolution,Excessive rigidity,Precise nerve stimulation,Hard
+91,LO4,Applying,How would you optimize a dialysis machine?,Enhance filtration efficiency,Increase device size,Reduce power efficiency,Lower material strength,Enhance filtration efficiency,Hard
+92,LO4,Analyzing,Why might a prosthetic limb fail in a patient?,Due to poor fit,Because of high conductivity,From low resolution,Due to excessive weight,Due to poor fit,Hard
+93,LO4,Analyzing,What challenge arises in designing artificial hearts?,Achieving long-term durability,Reducing signal accuracy,Increasing material flexibility,Lowering imaging quality,Achieving long-term durability,Hard
+94,LO4,Evaluating,Which material is best for a prosthetic knee joint?,Ceramic,Polymer,Steel,Wood,Ceramic,Hard
+95,LO4,Analyzing,Why is sensor integration critical in bionic limbs?,Enables adaptive movement,Increases device weight,Reduces material strength,Enhances thermal conductivity,Enables adaptive movement,Hard
+96,LO4,Evaluating,Which prosthetic feature is most critical for user satisfaction?,Comfort and functionality,High cost,Low durability,Complex design,Comfort and functionality,Hard
+97,LO5,Remembering,What is bioinformatics primarily used for in biomedical engineering?,Analyzing biological data,Designing prosthetics,Imaging tissues,Regulating heart rate,Analyzing biological data,Easy
+98,LO5,Remembering,What does a DNA microarray analyze?,Gene expression,Heart rhythm,Blood pressure,Muscle strength,Gene expression,Easy
+99,LO5,Remembering,What is the role of computational modeling in biomedical engineering?,Simulate biological systems,Measure temperature,Analyze mechanical stress,Monitor oxygen levels,Simulate biological systems,Easy
+100,LO5,Remembering,What is a common application of machine learning in biomedical engineering?,Disease prediction,Prosthetic design,Tissue imaging,Blood filtration,Disease prediction,Easy
+101,LO5,Remembering,What does proteomics study in biomedical engineering?,Protein interactions,Bone structure,Heart rhythm,Brain signals,Protein interactions,Easy
+102,LO5,Remembering,What is the purpose of a neural network in bioinformatics?,Predict biological patterns,Measure blood flow,Design biomaterials,Monitor temperature,Predict biological patterns,Easy
+103,LO5,Remembering,What is a genome sequence used for?,Identify genetic variations,Regulate heart rate,Image soft tissues,Stimulate muscle growth,Identify genetic variations,Easy
+104,LO5,Remembering,What is the main goal of systems biology?,Understand biological networks,Design prosthetic limbs,Measure blood pressure,Analyze bone density,Understand biological networks,Easy
+105,LO5,Understanding,Why is data integration important in bioinformatics?,Combines multiple data sources,Increases imaging resolution,Reduces computational cost,Enhances material strength,Combines multiple data sources,Medium
+106,LO5,Understanding,How does machine learning improve disease diagnosis?,Identifies patterns in data,Increases device weight,Reduces signal accuracy,Enhances imaging quality,Identifies patterns in data,Medium
+107,LO5,Understanding,What is the advantage of computational modeling in drug discovery?,Simulates drug interactions,Reduces material durability,Increases production cost,Lowers resolution,Simulates drug interactions,Medium
+108,LO5,Understanding,Why is proteomics critical in personalized medicine?,Identifies protein biomarkers,Increases electrical noise,Reduces computational speed,Enhances thermal stability,Identifies protein biomarkers,Medium
+109,LO5,Understanding,How does a DNA microarray contribute to research?,Detects gene expression levels,Measures mechanical stress,Analyzes blood flow,Monitors heart rhythm,Detects gene expression levels,Medium
+110,LO5,Understanding,What is the role of algorithms in systems biology?,Model complex interactions,Increase device size,Reduce material strength,Enhance imaging resolution,Model complex interactions,Medium
+111,LO5,Understanding,Why is big data important in biomedical engineering?,Handles large datasets,Increases hardware cost,Reduces signal quality,Lowers computational speed,Handles large datasets,Medium
+112,LO5,Understanding,What is a key challenge in bioinformatics data analysis?,Managing data complexity,Reducing device weight,Increasing imaging noise,Lowering material durability,Managing data complexity,Medium
+113,LO5,Applying,How would you use machine learning in cancer detection?,Train models on patient data,Design new biomaterials,Measure mechanical stress,Increase imaging resolution,Train models on patient data,Hard
+114,LO5,Applying,What factor is critical in designing a bioinformatics pipeline?,Data accuracy and integration,High computational cost,Low data volume,Reduced algorithm complexity,Data accuracy and integration,Hard
+115,LO5,Applying,How would you optimize a computational model for drug binding?,Validate with experimental data,Increase model size,Reduce data inputs,Lower processing speed,Validate with experimental data,Hard
+116,LO5,Analyzing,Why might a bioinformatics analysis fail?,Due to incomplete datasets,Because of high resolution,From excessive hardware,Due to low complexity,Due to incomplete datasets,Hard
+117,LO5,Analyzing,What challenge arises in proteomics research?,Identifying low-abundance proteins,Reducing computational speed,Increasing material strength,Lowering imaging quality,Identifying low-abundance proteins,Hard
+118,LO5,Evaluating,Which algorithm is best for predicting protein interactions?,Neural network,Linear regression,Decision tree,Clustering,Neural network,Hard
+119,LO5,Analyzing,Why is data normalization critical in genomics?,Ensures consistent analysis,Increases data volume,Reduces algorithm accuracy,Enhances material durability,Ensures consistent analysis,Hard
+120,LO5,Evaluating,Which tool is most effective for large-scale genomic analysis?,Bioinformatics pipeline,ECG monitor,Ultrasound scanner,Prosthetic sensor,Bioinformatics pipeline,Hard

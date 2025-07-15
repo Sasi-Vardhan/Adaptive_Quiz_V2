@@ -1,0 +1,121 @@
+id,learningOutcome,bloomsLevel,question,option1,option2,option3,option4,correctAnswer,level
+1,LO1,Remembering,What is the primary goal of strategic management in an MBA curriculum?,Align organizational goals with market opportunities,Reduce production costs,Design marketing campaigns,Analyze financial statements,Align organizational goals with market opportunities,Easy
+2,LO1,Remembering,Which framework analyzes external business environments?,PESTEL,Balance sheet,SWOT,Income statement,PESTEL,Easy
+3,LO1,Remembering,What does SWOT stand for in business strategy?,Strengths, Weaknesses, Opportunities, Threats,Systems, Workflows, Operations, Targets,Strategy, Workforce, Output, Trends,Skills, Wages, Objectives, Tools,Strengths, Weaknesses, Opportunities, Threats,Easy
+4,LO1,Remembering,What is a key component of a business mission statement?,Core values and purpose,Financial projections,Marketing tactics,Operational processes,Core values and purpose,Easy
+5,LO1,Remembering,What is Porter’s Five Forces used for?,Assess industry competitiveness,Calculate profit margins,Design organizational charts,Develop advertising campaigns,Assess industry competitiveness,Easy
+6,LO1,Remembering,What is the main purpose of a vision statement?,Guide long-term goals,Track daily operations,Measure employee performance,Analyze market trends,Guide long-term goals,Easy
+7,LO1,Remembering,What does a value chain analysis evaluate?,Business activities for efficiency,Employee satisfaction,Market share growth,Advertising effectiveness,Business activities for efficiency,Easy
+8,LO1,Remembering,What is a core competency in business strategy?,Unique organizational strength,Financial forecasting,Product pricing,Supply chain logistics,Unique organizational strength,Easy
+9,LO1,Understanding,Why is PESTEL analysis important for strategic planning?,Identifies external macro-environmental factors,Reduces operational costs,Improves employee retention,Enhances product design,Identifies external macro-environmental factors,Medium
+10,LO1,Understanding,How does SWOT analysis aid decision-making?,Evaluates internal and external factors,Focuses only on financial data,Simplifies marketing strategies,Reduces supply chain risks,Evaluates internal and external factors,Medium
+11,LO1,Understanding,What is the benefit of using Porter’s Five Forces?,Understands competitive dynamics,Increases production efficiency,Improves employee morale,Streamlines financial reporting,Understands competitive dynamics,Medium
+12,LO1,Understanding,Why is a mission statement critical for a company?,Guides organizational purpose,Calculates profit margins,Designs marketing campaigns,Manages inventory levels,Guides organizational purpose,Medium
+13,LO1,Understanding,How does a value chain analysis improve efficiency?,Identifies cost-saving opportunities,Increases market share,Enhances product branding,Reduces employee turnover,Identifies cost-saving opportunities,Medium
+14,LO1,Understanding,What role does a vision statement play in strategy?,Inspires long-term direction,Tracks daily sales,Manages operational costs,Analyzes competitor pricing,Inspires long-term direction,Medium
+15,LO1,Understanding,Why are core competencies valuable in strategy?,Leverage unique strengths,Reduce production time,Increase advertising budget,Simplify financial reporting,Leverage unique strengths,Medium
+16,LO1,Understanding,How does a balanced scorecard measure performance?,Tracks multiple strategic metrics,Focuses only on profits,Analyzes employee satisfaction,Reduces operational risks,Tracks multiple strategic metrics,Medium
+17,LO1,Applying,How would you use SWOT analysis to enter a new market?,Identify strengths and opportunities,Calculate financial ratios,Design advertising campaigns,Reduce employee costs,Identify strengths and opportunities,Hard
+18,LO1,Applying,What strategy would you apply using Porter’s Five Forces in a competitive industry?,Differentiate to reduce rivalry,Increase production costs,Lower employee wages,Simplify supply chains,Differentiate to reduce rivalry,Hard
+19,LO1,Applying,How would you develop a mission statement for a startup?,Align with core values and purpose,Focus on short-term profits,Copy competitor statements,Reduce operational details,Align with core values and purpose,Hard
+20,LO1,Analyzing,Why might a strategy fail due to poor PESTEL analysis?,Missed external risks,Inaccurate financial forecasts,Low employee morale,Weak marketing campaigns,Missed external risks,Hard
+21,LO1,Analyzing,What challenge arises when ignoring value chain analysis?,Inefficient operations,Reduced market share,Weak branding,Limited employee growth,Inefficient operations,Hard
+22,LO1,Evaluating,Which framework is best for assessing industry competition?,Porter’s Five Forces,SWOT,PESTEL,Balance sheet,Porter’s Five Forces,Hard
+23,LO1,Analyzing,Why is a weak vision statement problematic?,Lacks long-term direction,Reduces daily sales,Increases operational costs,Weakens competitor analysis,Lacks long-term direction,Hard
+24,LO1,Evaluating,Which metric is most critical for a balanced scorecard?,Strategic alignment,Profit margins,Employee turnover,Advertising spend,Strategic alignment,Hard
+25,LO2,Remembering,What is the primary goal of financial management in an MBA?,Maximize shareholder value,Design marketing campaigns,Manage employee schedules,Develop supply chains,Maximize shareholder value,Easy
+26,LO2,Remembering,What does NPV stand for in financial analysis?,Net Present Value,Net Profit Volume,New Product Valuation,Nominal Price Variance,Net Present Value,Easy
+27,LO2,Remembering,What is the purpose of a balance sheet?,Show financial position,Track daily sales,Analyze market trends,Measure employee performance,Show financial position,Easy
+28,LO2,Remembering,What does ROI measure?,Return on Investment,Revenue from Operations,Rate of Inflation,Resource Optimization Index,Return on Investment,Easy
+29,LO2,Remembering,What is a cash flow statement used for?,Track cash movement,Analyze competitor strategies,Design product features,Manage employee benefits,Track cash movement,Easy
+30,LO2,Remembering,What is a key function of budgeting?,Allocate financial resources,Develop marketing plans,Train employees,Design supply chains,Allocate financial resources,Easy
+31,LO2,Remembering,What does a high debt-to-equity ratio indicate?,High financial leverage,Low market share,Weak branding,High employee turnover,High financial leverage,Easy
+32,LO2,Remembering,What is the role of financial forecasting?,Predict future performance,Track daily operations,Design advertising campaigns,Manage inventory levels,Predict future performance,Easy
+33,LO2,Understanding,Why is NPV important in investment decisions?,Accounts for time value of money,Increases production efficiency,Reduces employee costs,Simplifies marketing strategies,Accounts for time value of money,Medium
+34,LO2,Understanding,How does a balance sheet differ from an income statement?,Shows position vs. performance,Tracks employee performance,Analyzes market trends,Manages supply chain risks,Shows position vs. performance,Medium
+35,LO2,Understanding,What is the advantage of using ROI in project evaluation?,Measures investment efficiency,Increases market share,Reduces operational costs,Improves branding,Measures investment efficiency,Medium
+36,LO2,Understanding,Why is cash flow analysis critical for businesses?,Ensures liquidity,Enhances product design,Reduces employee turnover,Increases advertising spend,Ensures liquidity,Medium
+37,LO2,Understanding,How does a high debt-to-equity ratio impact a company?,Increases financial risk,Improves employee morale,Expands market share,Simplifies operations,Increases financial risk,Medium
+38,LO2,Understanding,What is the benefit of financial forecasting?,Guides strategic planning,Reduces product pricing,Increases operational complexity,Enhances employee training,Guides strategic planning,Medium
+39,LO2,Understanding,Why is budgeting essential for financial control?,Monitors resource allocation,Increases market competition,Reduces product quality,Simplifies marketing campaigns,Monitors resource allocation,Medium
+40,LO2,Understanding,What role does a cash flow statement play in decision-making?,Assesses cash availability,Tracks employee performance,Analyzes competitor strategies,Designs product features,Assesses cash availability,Medium
+41,LO2,Applying,How would you use NPV to evaluate a project?,Discount future cash flows,Increase production costs,Reduce employee wages,Simplify supply chains,Discount future cash flows,Hard
+42,LO2,Applying,What factor is critical when analyzing a balance sheet?,Liquidity and solvency,Employee satisfaction,Market share growth,Advertising effectiveness,Liquidity and solvency,Hard
+43,LO2,Applying,How would you improve a company’s ROI?,Optimize resource allocation,Increase operational complexity,Reduce employee training,Lower market share,Optimize resource allocation,Hard
+44,LO2,Analyzing,Why might a company face cash flow issues?,Due to poor receivables management,Because of high market share,From weak branding,Due to low employee turnover,Due to poor receivables management,Hard
+45,LO2,Analyzing,What challenge arises from a high debt-to-equity ratio?,Increased interest expenses,Reduced product quality,Lower advertising spend,Weak competitor analysis,Increased interest expenses,Hard
+46,LO2,Evaluating,Which metric is best for assessing investment profitability?,ROI,Balance sheet,PESTEL,SWOT,ROI,Hard
+47,LO2,Analyzing,Why is inaccurate financial forecasting problematic?,Misguides strategic decisions,Reduces employee morale,Increases market share,Weakens product design,Misguides strategic decisions,Hard
+48,LO2,Evaluating,Which financial statement is most critical for liquidity analysis?,Cash flow statement,Income statement,Balance sheet,Statement of equity,Cash flow statement,Hard
+49,LO3,Remembering,What is the primary goal of leadership in an MBA context?,Inspire and guide teams,Analyze financial statements,Design marketing campaigns,Manage supply chains,Inspire and guide teams,Easy
+50,LO3,Remembering,What is transformational leadership?,Inspires change and innovation,Focuses on task delegation,Emphasizes cost reduction,Tracks daily operations,Inspires change and innovation,Easy
+51,LO3,Remembering,What does emotional intelligence contribute to leadership?,Enhances interpersonal skills,Increases financial profits,Reduces operational risks,Improves product design,Enhances interpersonal skills,Easy
+52,LO3,Remembering,What is a key trait of servant leadership?,Prioritizes team needs,Focuses on profit margins,Emphasizes market share,Reduces employee training,Prioritizes team needs,Easy
+53,LO3,Remembering,What is the purpose of team dynamics in leadership?,Foster collaboration,Track financial performance,Design supply chains,Analyze market trends,Foster collaboration,Easy
+54,LO3,Remembering,What does a 360-degree feedback system evaluate?,Leadership performance,Product pricing,Market competition,Operational efficiency,Leadership performance,Easy
+55,LO3,Remembering,What is a common leadership style in dynamic industries?,Adaptive leadership,Autocratic leadership,Bureaucratic leadership,Laissez-faire leadership,Adaptive leadership,Easy
+56,LO3,Remembering,What is the role of a leader in change management?,Guide organizational transitions,Reduce production costs,Design advertising campaigns,Manage inventory levels,Guide organizational transitions,Easy
+57,LO3,Understanding,Why is emotional intelligence critical for leadership?,Improves team relationships,Increases financial forecasting,Reduces operational complexity,Enhances product branding,Improves team relationships,Medium
+58,LO3,Understanding,How does transformational leadership differ from transactional?,Inspires vs. rewards-based,Focuses on costs vs. profits,Emphasizes markets vs. operations,Reduces training vs. hiring,Inspires vs. rewards-based,Medium
+59,LO3,Understanding,What is the benefit of servant leadership?,Enhances team morale,Increases market share,Reduces financial risks,Simplifies supply chains,Enhances team morale,Medium
+60,LO3,Understanding,Why is adaptive leadership effective in crises?,Adjusts to changing environments,Focuses on rigid structures,Reduces employee costs,Increases product pricing,Adjusts to changing environments,Medium
+61,LO3,Understanding,How does 360-degree feedback improve leadership?,Provides comprehensive insights,Reduces operational costs,Increases market competition,Simplifies financial reporting,Provides comprehensive insights,Medium
+62,LO3,Understanding,What role does team dynamics play in organizational success?,Drives collaboration and innovation,Tracks financial performance,Manages supply chain risks,Analyzes competitor strategies,Drives collaboration and innovation,Medium
+63,LO3,Understanding,Why is change management critical for leaders?,Navigates organizational transitions,Increases advertising spend,Reduces employee turnover,Enhances product design,Navigates organizational transitions,Medium
+64,LO3,Understanding,What is the advantage of situational leadership?,Adapts to team needs,Increases operational complexity,Reduces market share,Simplifies financial analysis,Adapts to team needs,Medium
+65,LO3,Applying,How would you apply transformational leadership in a startup?,Inspire innovation and vision,Reduce operational costs,Focus on competitor analysis,Simplify supply chains,Inspire innovation and vision,Hard
+66,LO3,Applying,What factor is critical in implementing 360-degree feedback?,Ensuring anonymity and honesty,Increasing employee wages,Reducing product quality,Enhancing marketing campaigns,Ensuring anonymity and honesty,Hard
+67,LO3,Applying,How would you use adaptive leadership in a market crisis?,Adjust strategies dynamically,Maintain rigid plans,Reduce employee training,Increase production costs,Adjust strategies dynamically,Hard
+68,LO3,Analyzing,Why might a leadership strategy fail?,Due to poor communication,Because of high profits,From strong branding,Due to low operational costs,Due to poor communication,Hard
+69,LO3,Analyzing,What challenge arises in managing team dynamics?,Resolving conflicts,Increasing financial risks,Reducing market share,Simplifying product design,Resolving conflicts,Hard
+70,LO3,Evaluating,Which leadership style is best for innovation-driven firms?,Transformational,Autocratic,Bureaucratic,Laissez-faire,Transformational,Hard
+71,LO3,Analyzing,Why is emotional intelligence critical during change management?,Manages team emotions,Increases production efficiency,Reduces advertising spend,Enhances financial forecasting,Manages team emotions,Hard
+72,LO3,Evaluating,Which feedback system is most effective for leadership growth?,360-degree feedback,Employee surveys,Financial audits,Market analysis,360-degree feedback,Hard
+73,LO4,Remembering,What is the primary goal of marketing in an MBA?,Build brand and customer value,Analyze financial statements,Manage employee schedules,Develop supply chains,Build brand and customer value,Easy
+74,LO4,Remembering,What does STP stand for in marketing?,Segmentation, Targeting, Positioning,Strategy, Tactics, Planning,Sales, Trends, Promotion,Systems, Tools, Pricing,Segmentation, Targeting, Positioning,Easy
+75,LO4,Remembering,What is the purpose of a marketing mix?,Guide marketing strategies,Track financial performance,Manage employee benefits,Analyze operational risks,Guide marketing strategies,Easy
+76,LO4,Remembering,What is a key component of the 4Ps in marketing?,Product,Profit,Payroll,Performance,Product,Easy
+77,LO4,Remembering,What does a brand represent?,Company identity and values,Financial forecasts,Employee performance,Supply chain efficiency,Company identity and values,Easy
+78,LO4,Remembering,What is the role of market segmentation?,Divide customers into groups,Track daily sales,Design organizational charts,Manage inventory levels,Divide customers into groups,Easy
+79,LO4,Remembering,What is a common marketing metric?,Customer acquisition cost,Employee turnover,Operational efficiency,Financial leverage,Customer acquisition cost,Easy
+80,LO4,Remembering,What does a promotional campaign aim to achieve?,Increase brand awareness,Reduce production costs,Manage team dynamics,Analyze competitor strategies,Increase brand awareness,Easy
+81,LO4,Understanding,Why is STP critical in marketing?,Focuses on specific customer needs,Increases operational costs,Reduces employee morale,Simplifies financial reporting,Focuses on specific customer needs,Medium
+82,LO4,Understanding,How does the marketing mix guide strategy?,Balances product, price, place, promotion,Tracks financial performance,Manages employee schedules,Analyzes supply chain risks,Balances product, price, place, promotion,Medium
+83,LO4,Understanding,What is the benefit of strong branding?,Builds customer loyalty,Increases production efficiency,Reduces market competition,Simplifies operational processes,Builds customer loyalty,Medium
+84,LO4,Understanding,Why is market segmentation important?,Targets specific customer groups,Reduces product quality,Increases employee turnover,Enhances financial forecasting,Targets specific customer groups,Medium
+85,LO4,Understanding,How does customer acquisition cost impact marketing?,Measures campaign efficiency,Increases operational complexity,Reduces product pricing,Improves employee training,Measures campaign efficiency,Medium
+86,LO4,Understanding,What role does a promotional campaign play?,Drives customer engagement,Tracks financial risks,Manages team performance,Reduces supply chain costs,Drives customer engagement,Medium
+87,LO4,Understanding,Why is market research critical in marketing?,Informs strategic decisions,Increases production costs,Reduces employee satisfaction,Simplifies product design,Informs strategic decisions,Medium
+88,LO4,Understanding,What is the advantage of digital marketing?,Reaches targeted audiences,Increases operational risks,Reduces financial forecasting,Enhances employee morale,Reaches targeted audiences,Medium
+89,LO4,Applying,How would you use STP to launch a new product?,Segment and target specific customers,Increase production costs,Reduce employee training,Simplify financial reports,Segment and target specific customers,Hard
+90,LO4,Applying,What factor is critical in designing a marketing mix?,Balancing customer and business needs,Increasing operational complexity,Reducing market share,Lowering employee costs,Balancing customer and business needs,Hard
+91,LO4,Applying,How would you optimize a promotional campaign?,Use data-driven targeting,Increase production costs,Reduce product quality,Simplify supply chains,Use data-driven targeting,Hard
+92,LO4,Analyzing,Why might a marketing campaign fail?,Due to poor targeting,Because of high profits,From strong operations,Due to low employee turnover,Due to poor targeting,Hard
+93,LO4,Analyzing,What challenge arises in market segmentation?,Identifying accurate customer groups,Reducing financial risks,Increasing product pricing,Simplifying team dynamics,Identifying accurate customer groups,Hard
+94,LO4,Evaluating,Which metric is best for evaluating marketing success?,Customer acquisition cost,Employee satisfaction,Operational efficiency,Financial leverage,Customer acquisition cost,Hard
+95,LO4,Analyzing,Why is weak branding problematic?,Reduces customer loyalty,Increases production efficiency,Reduces market competition,Simplifies financial analysis,Reduces customer loyalty,Hard
+96,LO4,Evaluating,Which marketing strategy is most effective for startups?,Digital targeting,Traditional advertising,Billboard campaigns,Print media,Digital targeting,Hard
+97,LO5,Remembering,What is the primary goal of data analytics in an MBA?,Drive data-driven decisions,Design marketing campaigns,Manage employee schedules,Develop supply chains,Drive data-driven decisions,Easy
+98,LO5,Remembering,What does a decision tree analyze in business?,Decision outcomes,Financial statements,Employee performance,Supply chain risks,Decision outcomes,Easy
+99,LO5,Remembering,What is the role of predictive analytics?,Forecast future trends,Track daily sales,Design organizational charts,Manage inventory levels,Forecast future trends,Easy
+100,LO5,Remembering,What is a common tool for data visualization?,Tableau,Balance sheet,SWOT,PESTEL,Tableau,Easy
+101,LO5,Remembering,What does regression analysis measure?,Variable relationships,Employee turnover,Market share growth,Operational efficiency,Variable relationships,Easy
+102,LO5,Remembering,What is the purpose of A/B testing in business?,Compare performance of options,Track financial risks,Manage team dynamics,Design supply chains,Compare performance of options,Easy
+103,LO5,Remembering,What does big data refer to?,Large and complex datasets,Small operational data,Employee performance metrics,Simple financial reports,Large and complex datasets,Easy
+104,LO5,Remembering,What is a key application of machine learning in business?,Customer behavior prediction,Product pricing,Employee scheduling,Supply chain design,Customer behavior prediction,Easy
+105,LO5,Understanding,Why is predictive analytics valuable in business?,Anticipates market trends,Increases production costs,Reduces employee morale,Simplifies product design,Anticipates market trends,Medium
+106,LO5,Understanding,How does data visualization aid decision-making?,Simplifies complex data,Increases operational complexity,Reduces financial forecasting,Enhances employee training,Simplifies complex data,Medium
+107,LO5,Understanding,What is the benefit of regression analysis?,Identifies variable impacts,Reduces market competition,Increases employee turnover,Simplifies supply chains,Identifies variable impacts,Medium
+108,LO5,Understanding,Why is A/B testing critical for marketing?,Optimizes campaign performance,Increases production costs,Reduces employee satisfaction,Enhances financial reporting,Optimizes campaign performance,Medium
+109,LO5,Understanding,How does big data improve business strategy?,Enables data-driven insights,Reduces product quality,Increases operational risks,Simplifies team dynamics,Enables data-driven insights,Medium
+110,LO5,Understanding,What role does machine learning play in customer analytics?,Predicts purchasing patterns,Increases financial risks,Reduces market share,Enhances product design,Predicts purchasing patterns,Medium
+111,LO5,Understanding,Why is data cleaning important in analytics?,Ensures data accuracy,Increases computational cost,Reduces employee morale,Simplifies marketing campaigns,Ensures data accuracy,Medium
+112,LO5,Understanding,What is the advantage of using Tableau for analytics?,Creates interactive visualizations,Reduces operational efficiency,Increases financial risks,Simplifies employee training,Creates interactive visualizations,Medium
+113,LO5,Applying,How would you use predictive analytics for sales?,Forecast customer demand,Increase production costs,Reduce employee training,Simplify financial reports,Forecast customer demand,Hard
+114,LO5,Applying,What factor is critical in designing a data analytics pipeline?,Data accuracy and integration,High computational cost,Low data volume,Reduced algorithm complexity,Data accuracy and integration,Hard
+115,LO5,Applying,How would you optimize an A/B testing campaign?,Use statistically significant data,Increase operational complexity,Reduce product quality,Lower market share,Use statistically significant data,Hard
+116,LO5,Analyzing,Why might a data analytics project fail?,Due to poor data quality,Because of high profits,From strong branding,Due to low employee turnover,Due to poor data quality,Hard
+117,LO5,Analyzing,What challenge arises in big data analytics?,Managing data complexity,Reducing financial risks,Increasing product pricing,Simplifying team dynamics,Managing data complexity,Hard
+118,LO5,Evaluating,Which tool is best for predictive analytics?,Machine learning,SWOT,PESTEL,Balance sheet,Machine learning,Hard
+119,LO5,Analyzing,Why is data normalization critical in analytics?,Ensures consistent analysis,Increases data volume,Reduces algorithm accuracy,Enhances employee morale,Ensures consistent analysis,Hard
+120,LO5,Evaluating,Which visualization tool is most effective for business dashboards?,Tableau,Excel,Word,PowerPoint,Tableau,Hard
