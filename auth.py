@@ -42,10 +42,11 @@ def login():
 
 @auth_bp.route('/signup', methods=['GET', 'POST'])
 def signup():
-    error = None  # ✅ define error upfront
+    error = None
     if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
+
         payload = {
             'email': email,
             'password': password,
@@ -58,11 +59,15 @@ def signup():
         )
 
         if res.ok:
-            return redirect(url_for('auth.login'))  # ✅ Use blueprint prefix
+            return redirect(url_for('auth.login'))
         else:
-            error = res.json().get('error', {}).get('message', 'Signup Failed')
-        
+            firebase_error = res.json().get('error', {})
+            error_code = firebase_error.get('message', 'Signup Failed')
+            error = f"❌ Signup failed: {error_code}"
+            print(f"[SIGNUP ERROR] {firebase_error}")  # for debugging
+
     return render_template('signUp.html', error=error)
+
 @auth_bp.route('/forgot-password', methods=['GET', 'POST'])
 def forgot_password():
     message = None
